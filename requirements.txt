@@ -1,0 +1,6 @@
+gensim==3.2.0
+inflection
+numpy
+ontospy
+pandas
+pytest

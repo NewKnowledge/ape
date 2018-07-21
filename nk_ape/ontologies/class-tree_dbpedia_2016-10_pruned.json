@@ -1,0 +1,5227 @@
+{
+    "abbey": {
+        "parents": [
+            "religious building"
+        ],
+        "children": []
+    },
+    "academic conference": {
+        "parents": [
+            "societal event"
+        ],
+        "children": []
+    },
+    "academic journal": {
+        "parents": [
+            "periodical literature"
+        ],
+        "children": []
+    },
+    "academic subject": {
+        "parents": [
+            "topical concept"
+        ],
+        "children": []
+    },
+    "activity": {
+        "parents": [],
+        "children": [
+            "game",
+            "sales",
+            "sport"
+        ]
+    },
+    "actor": {
+        "parents": [
+            "artist"
+        ],
+        "children": [
+            "adult pornographic actor",
+            "voice actor"
+        ]
+    },
+    "administrative region": {
+        "parents": [
+            "region"
+        ],
+        "children": [
+            "clerical administrative region",
+            "governmental administrative region",
+            "ancient area of jurisdiction of a person feudal or of a governmental body"
+        ]
+    },
+    "adult pornographic actor": {
+        "parents": [
+            "actor"
+        ],
+        "children": []
+    },
+    "agent": {
+        "parents": [],
+        "children": [
+            "deity",
+            "employer",
+            "family",
+            "organisation",
+            "person"
+        ]
+    },
+    "agglomeration": {
+        "parents": [
+            "populated place"
+        ],
+        "children": []
+    },
+    "aircraft": {
+        "parents": [
+            "mean of transportation"
+        ],
+        "children": [
+            "military aircraft"
+        ]
+    },
+    "airline": {
+        "parents": [
+            "company"
+        ],
+        "children": []
+    },
+    "airport": {
+        "parents": [
+            "infrastructure"
+        ],
+        "children": []
+    },
+    "album": {
+        "parents": [
+            "musical work"
+        ],
+        "children": []
+    },
+    "amateur boxer": {
+        "parents": [
+            "boxer"
+        ],
+        "children": []
+    },
+    "ambassador": {
+        "parents": [
+            "person"
+        ],
+        "children": []
+    },
+    "american football coach": {
+        "parents": [
+            "coach"
+        ],
+        "children": []
+    },
+    "american football league": {
+        "parents": [
+            "sports league"
+        ],
+        "children": []
+    },
+    "american football player": {
+        "parents": [
+            "gridiron football player"
+        ],
+        "children": []
+    },
+    "american football team": {
+        "parents": [
+            "sports team"
+        ],
+        "children": []
+    },
+    "amphibian": {
+        "parents": [
+            "animal"
+        ],
+        "children": []
+    },
+    "amusement park attraction": {
+        "parents": [
+            "architectural structure"
+        ],
+        "children": [
+            "roller coaster",
+            "water ride"
+        ]
+    },
+    "anatomical structure": {
+        "parents": [],
+        "children": [
+            "artery",
+            "blood vessel",
+            "bone",
+            "brain",
+            "embryology",
+            "ligament",
+            "lymph",
+            "muscle",
+            "nerve",
+            "vein"
+        ]
+    },
+    "animal": {
+        "parents": [
+            "eukaryote"
+        ],
+        "children": [
+            "amphibian",
+            "arachnid",
+            "bird",
+            "crustacean",
+            "fish",
+            "insect",
+            "mammal",
+            "mollusca",
+            "reptile"
+        ]
+    },
+    "animanga character": {
+        "parents": [
+            "comics character"
+        ],
+        "children": []
+    },
+    "anime": {
+        "parents": [
+            "cartoon"
+        ],
+        "children": []
+    },
+    "annotation": {
+        "parents": [
+            "written work"
+        ],
+        "children": [
+            "reference"
+        ]
+    },
+    "arachnid": {
+        "parents": [
+            "animal"
+        ],
+        "children": []
+    },
+    "archaea": {
+        "parents": [
+            "species"
+        ],
+        "children": []
+    },
+    "archeologist": {
+        "parents": [
+            "person"
+        ],
+        "children": []
+    },
+    "archer player": {
+        "parents": [
+            "athlete"
+        ],
+        "children": []
+    },
+    "archipelago": {
+        "parents": [
+            "natural place"
+        ],
+        "children": []
+    },
+    "architect": {
+        "parents": [
+            "person"
+        ],
+        "children": []
+    },
+    "architectural structure": {
+        "parents": [
+            "place"
+        ],
+        "children": [
+            "amusement park attraction",
+            "arena",
+            "building",
+            "gate",
+            "infrastructure",
+            "military structure",
+            "mill",
+            "pyramid",
+            "sport facility",
+            "square",
+            "tower",
+            "tunnel",
+            "venue",
+            "zoo"
+        ]
+    },
+    "archive": {
+        "parents": [
+            "collection of valuables"
+        ],
+        "children": []
+    },
+    "arena": {
+        "parents": [
+            "architectural structure"
+        ],
+        "children": []
+    },
+    "aristocrat": {
+        "parents": [
+            "person"
+        ],
+        "children": []
+    },
+    "arrondissement": {
+        "parents": [
+            "governmental administrative region"
+        ],
+        "children": []
+    },
+    "artery": {
+        "parents": [
+            "anatomical structure"
+        ],
+        "children": []
+    },
+    "article": {
+        "parents": [
+            "written work"
+        ],
+        "children": []
+    },
+    "artificial satellite": {
+        "parents": [
+            "satellite"
+        ],
+        "children": []
+    },
+    "artist": {
+        "parents": [
+            "person"
+        ],
+        "children": [
+            "actor",
+            "comedian",
+            "comics creator",
+            "dancer",
+            "fashion designer",
+            "humorist",
+            "musical artist",
+            "painter",
+            "photographer",
+            "sculptor"
+        ]
+    },
+    "artist discography": {
+        "parents": [
+            "musical work"
+        ],
+        "children": []
+    },
+    "artistic genre": {
+        "parents": [
+            "genre"
+        ],
+        "children": []
+    },
+    "artwork": {
+        "parents": [
+            "work"
+        ],
+        "children": [
+            "painting",
+            "sculpture"
+        ]
+    },
+    "asteroid": {
+        "parents": [
+            "celestial body"
+        ],
+        "children": []
+    },
+    "astronaut": {
+        "parents": [
+            "person"
+        ],
+        "children": []
+    },
+    "athlete": {
+        "parents": [
+            "person"
+        ],
+        "children": [
+            "archer player",
+            "athletics player",
+            "australian rules football player",
+            "badminton player",
+            "baseball player",
+            "basketball player",
+            "bodybuilder",
+            "boxer",
+            "bullfighter",
+            "canoeist",
+            "chess player",
+            "cricketer",
+            "cyclist",
+            "darts player",
+            "fencer",
+            "gaelic games player",
+            "golf player",
+            "gridiron football player",
+            "gymnast",
+            "handball player",
+            "high diver",
+            "horse rider",
+            "jockey horse racer",
+            "lacrosse player",
+            "martial artist",
+            "motorsport racer",
+            "national collegiate athletic association athlete",
+            "netball player",
+            "poker player",
+            "rower",
+            "rugby player",
+            "snooker player",
+            "soccer player",
+            "squash player",
+            "surfer",
+            "swimmer",
+            "table tennis player",
+            "team member",
+            "tennis player",
+            "volleyball player",
+            "water polo player",
+            "winter sport player",
+            "wrestler"
+        ]
+    },
+    "athletics": {
+        "parents": [
+            "sport"
+        ],
+        "children": []
+    },
+    "athletics player": {
+        "parents": [
+            "athlete"
+        ],
+        "children": []
+    },
+    "atoll": {
+        "parents": [
+            "island"
+        ],
+        "children": []
+    },
+    "attack": {
+        "parents": [
+            "societal event"
+        ],
+        "children": []
+    },
+    "australian football league": {
+        "parents": [
+            "sports league"
+        ],
+        "children": []
+    },
+    "australian football team": {
+        "parents": [
+            "sports team"
+        ],
+        "children": []
+    },
+    "australian rules football player": {
+        "parents": [
+            "athlete"
+        ],
+        "children": []
+    },
+    "auto racing league": {
+        "parents": [
+            "sports league"
+        ],
+        "children": []
+    },
+    "automobile": {
+        "parents": [
+            "mean of transportation"
+        ],
+        "children": []
+    },
+    "automobile engine": {
+        "parents": [
+            "engine"
+        ],
+        "children": []
+    },
+    "award": {
+        "parents": [],
+        "children": [
+            "decoration",
+            "nobel prize"
+        ]
+    },
+    "back scene": {
+        "parents": [
+            "musical artist"
+        ],
+        "children": []
+    },
+    "bacteria": {
+        "parents": [
+            "species"
+        ],
+        "children": []
+    },
+    "badminton player": {
+        "parents": [
+            "athlete"
+        ],
+        "children": []
+    },
+    "band": {
+        "parents": [
+            "group"
+        ],
+        "children": []
+    },
+    "bank": {
+        "parents": [
+            "company"
+        ],
+        "children": []
+    },
+    "baronet": {
+        "parents": [
+            "british royalty"
+        ],
+        "children": []
+    },
+    "baseball league": {
+        "parents": [
+            "sports league"
+        ],
+        "children": []
+    },
+    "baseball player": {
+        "parents": [
+            "athlete"
+        ],
+        "children": []
+    },
+    "baseball season": {
+        "parents": [
+            "sports team season"
+        ],
+        "children": []
+    },
+    "baseball team": {
+        "parents": [
+            "sports team"
+        ],
+        "children": []
+    },
+    "basketball league": {
+        "parents": [
+            "sports league"
+        ],
+        "children": []
+    },
+    "basketball player": {
+        "parents": [
+            "athlete"
+        ],
+        "children": []
+    },
+    "basketball team": {
+        "parents": [
+            "sports team"
+        ],
+        "children": []
+    },
+    "bay": {
+        "parents": [
+            "body of water"
+        ],
+        "children": []
+    },
+    "beach": {
+        "parents": [
+            "natural place"
+        ],
+        "children": []
+    },
+    "beach volleyball player": {
+        "parents": [
+            "volleyball player"
+        ],
+        "children": []
+    },
+    "beauty queen": {
+        "parents": [
+            "person"
+        ],
+        "children": []
+    },
+    "beer": {
+        "parents": [
+            "beverage"
+        ],
+        "children": []
+    },
+    "beverage": {
+        "parents": [
+            "food"
+        ],
+        "children": [
+            "beer",
+            "vodka",
+            "wine"
+        ]
+    },
+    "biathlete": {
+        "parents": [
+            "winter sport player"
+        ],
+        "children": []
+    },
+    "biological database": {
+        "parents": [
+            "database"
+        ],
+        "children": []
+    },
+    "biologist": {
+        "parents": [
+            "scientist"
+        ],
+        "children": []
+    },
+    "biomolecule": {
+        "parents": [],
+        "children": [
+            "enzyme",
+            "gene",
+            "hormone",
+            "lipid",
+            "polysaccharide",
+            "protein"
+        ]
+    },
+    "bird": {
+        "parents": [
+            "animal"
+        ],
+        "children": []
+    },
+    "birth": {
+        "parents": [
+            "personal event"
+        ],
+        "children": []
+    },
+    "blood vessel": {
+        "parents": [
+            "anatomical structure"
+        ],
+        "children": []
+    },
+    "board game": {
+        "parents": [
+            "game"
+        ],
+        "children": []
+    },
+    "bobsleigh athlete": {
+        "parents": [
+            "winter sport player"
+        ],
+        "children": []
+    },
+    "body of water": {
+        "parents": [
+            "natural place"
+        ],
+        "children": [
+            "bay",
+            "lake",
+            "ocean",
+            "sea",
+            "stream"
+        ]
+    },
+    "bodybuilder": {
+        "parents": [
+            "athlete"
+        ],
+        "children": []
+    },
+    "bone": {
+        "parents": [
+            "anatomical structure"
+        ],
+        "children": []
+    },
+    "book": {
+        "parents": [
+            "written work"
+        ],
+        "children": [
+            "novel"
+        ]
+    },
+    "bowling league": {
+        "parents": [
+            "sports league"
+        ],
+        "children": []
+    },
+    "boxer": {
+        "parents": [
+            "athlete"
+        ],
+        "children": [
+            "amateur boxer"
+        ]
+    },
+    "boxing": {
+        "parents": [
+            "sport"
+        ],
+        "children": [
+            "boxing category",
+            "boxing style"
+        ]
+    },
+    "boxing category": {
+        "parents": [
+            "boxing"
+        ],
+        "children": []
+    },
+    "boxing league": {
+        "parents": [
+            "sports league"
+        ],
+        "children": []
+    },
+    "boxing style": {
+        "parents": [
+            "boxing"
+        ],
+        "children": []
+    },
+    "brain": {
+        "parents": [
+            "anatomical structure"
+        ],
+        "children": []
+    },
+    "brewery": {
+        "parents": [
+            "company"
+        ],
+        "children": []
+    },
+    "bridge": {
+        "parents": [
+            "route of transportation"
+        ],
+        "children": []
+    },
+    "british royalty": {
+        "parents": [
+            "royalty"
+        ],
+        "children": [
+            "baronet"
+        ]
+    },
+    "broadcast network": {
+        "parents": [
+            "broadcaster"
+        ],
+        "children": []
+    },
+    "broadcaster": {
+        "parents": [
+            "organisation"
+        ],
+        "children": [
+            "broadcast network",
+            "radio station",
+            "television station"
+        ]
+    },
+    "brown dwarf": {
+        "parents": [
+            "star"
+        ],
+        "children": []
+    },
+    "building": {
+        "parents": [
+            "architectural structure"
+        ],
+        "children": [
+            "casino",
+            "castle",
+            "factory",
+            "historic building",
+            "hospital",
+            "hotel",
+            "library",
+            "museum",
+            "prison",
+            "religious building",
+            "restaurant",
+            "shopping mall",
+            "skyscraper"
+        ]
+    },
+    "bullfighter": {
+        "parents": [
+            "athlete"
+        ],
+        "children": []
+    },
+    "bus company": {
+        "parents": [
+            "company"
+        ],
+        "children": []
+    },
+    "businessperson": {
+        "parents": [
+            "person"
+        ],
+        "children": []
+    },
+    "camera": {
+        "parents": [
+            "device"
+        ],
+        "children": [
+            "digital camera"
+        ]
+    },
+    "liga de f\u00fatbol canadiense": {
+        "parents": [
+            "sports league"
+        ],
+        "children": []
+    },
+    "canadian football player": {
+        "parents": [
+            "gridiron football player"
+        ],
+        "children": []
+    },
+    "canadian football team": {
+        "parents": [
+            "sports team"
+        ],
+        "children": []
+    },
+    "canal": {
+        "parents": [
+            "stream"
+        ],
+        "children": []
+    },
+    "canoeist": {
+        "parents": [
+            "athlete"
+        ],
+        "children": []
+    },
+    "canton": {
+        "parents": [
+            "governmental administrative region"
+        ],
+        "children": []
+    },
+    "cape": {
+        "parents": [
+            "natural place"
+        ],
+        "children": []
+    },
+    "capital": {
+        "parents": [
+            "city"
+        ],
+        "children": []
+    },
+    "capital of region": {
+        "parents": [
+            "city"
+        ],
+        "children": []
+    },
+    "card game": {
+        "parents": [
+            "game"
+        ],
+        "children": []
+    },
+    "cardinal": {
+        "parents": [
+            "cleric"
+        ],
+        "children": []
+    },
+    "cardinal direction": {
+        "parents": [
+            "topical concept"
+        ],
+        "children": []
+    },
+    "career station": {
+        "parents": [
+            "time period"
+        ],
+        "children": []
+    },
+    "cartoon": {
+        "parents": [
+            "work"
+        ],
+        "children": [
+            "anime",
+            "hollywood cartoon"
+        ]
+    },
+    "case": {
+        "parents": [
+            "unit of work"
+        ],
+        "children": [
+            "legal case"
+        ]
+    },
+    "casino": {
+        "parents": [
+            "building"
+        ],
+        "children": []
+    },
+    "castle": {
+        "parents": [
+            "building"
+        ],
+        "children": []
+    },
+    "cat": {
+        "parents": [
+            "mammal"
+        ],
+        "children": []
+    },
+    "caterer": {
+        "parents": [
+            "company"
+        ],
+        "children": []
+    },
+    "cave": {
+        "parents": [
+            "natural place"
+        ],
+        "children": []
+    },
+    "celebrity": {
+        "parents": [
+            "person"
+        ],
+        "children": []
+    },
+    "celestial body": {
+        "parents": [
+            "place"
+        ],
+        "children": [
+            "asteroid",
+            "constellation",
+            "galaxy",
+            "planet",
+            "satellite",
+            "star",
+            "swarm"
+        ]
+    },
+    "cemetery": {
+        "parents": [
+            "place"
+        ],
+        "children": []
+    },
+    "chancellor": {
+        "parents": [
+            "politician"
+        ],
+        "children": []
+    },
+    "cheese": {
+        "parents": [
+            "food"
+        ],
+        "children": []
+    },
+    "chef": {
+        "parents": [
+            "person"
+        ],
+        "children": []
+    },
+    "chemical compound": {
+        "parents": [
+            "chemical substance"
+        ],
+        "children": []
+    },
+    "chemical element": {
+        "parents": [
+            "chemical substance"
+        ],
+        "children": []
+    },
+    "chemical substance": {
+        "parents": [],
+        "children": [
+            "chemical compound",
+            "chemical element",
+            "drug",
+            "mineral"
+        ]
+    },
+    "chess player": {
+        "parents": [
+            "athlete"
+        ],
+        "children": []
+    },
+    "christian bishop": {
+        "parents": [
+            "cleric"
+        ],
+        "children": []
+    },
+    "christian doctrine": {
+        "parents": [
+            "theological concept"
+        ],
+        "children": []
+    },
+    "christian patriarch": {
+        "parents": [
+            "cleric"
+        ],
+        "children": []
+    },
+    "church": {
+        "parents": [
+            "religious building"
+        ],
+        "children": []
+    },
+    "city": {
+        "parents": [
+            "settlement"
+        ],
+        "children": [
+            "capital",
+            "capital of region"
+        ]
+    },
+    "city district": {
+        "parents": [
+            "settlement"
+        ],
+        "children": []
+    },
+    "classical music artist": {
+        "parents": [
+            "musical artist"
+        ],
+        "children": []
+    },
+    "classical music composition": {
+        "parents": [
+            "musical work"
+        ],
+        "children": []
+    },
+    "cleric": {
+        "parents": [
+            "person"
+        ],
+        "children": [
+            "cardinal",
+            "christian bishop",
+            "christian patriarch",
+            "pope",
+            "priest",
+            "saint",
+            "vicar"
+        ]
+    },
+    "clerical administrative region": {
+        "parents": [
+            "administrative region"
+        ],
+        "children": [
+            "deanery",
+            "diocese",
+            "parish"
+        ]
+    },
+    "clerical order": {
+        "parents": [
+            "religious organisation"
+        ],
+        "children": []
+    },
+    "club moss": {
+        "parents": [
+            "plant"
+        ],
+        "children": []
+    },
+    "coach": {
+        "parents": [
+            "person"
+        ],
+        "children": [
+            "american football coach",
+            "college coach",
+            "volleyball coach"
+        ]
+    },
+    "coal pit": {
+        "parents": [
+            "mine"
+        ],
+        "children": []
+    },
+    "collection of valuables": {
+        "parents": [
+            "work"
+        ],
+        "children": [
+            "archive"
+        ]
+    },
+    "college": {
+        "parents": [
+            "educational institution"
+        ],
+        "children": []
+    },
+    "college coach": {
+        "parents": [
+            "coach"
+        ],
+        "children": []
+    },
+    "comedian": {
+        "parents": [
+            "artist"
+        ],
+        "children": []
+    },
+    "comedy group": {
+        "parents": [
+            "group"
+        ],
+        "children": []
+    },
+    "comic": {
+        "parents": [
+            "written work"
+        ],
+        "children": [
+            "comic strip",
+            "manga",
+            "manhua",
+            "manhwa"
+        ]
+    },
+    "comic strip": {
+        "parents": [
+            "comic"
+        ],
+        "children": []
+    },
+    "comics character": {
+        "parents": [
+            "fictional character"
+        ],
+        "children": [
+            "animanga character"
+        ]
+    },
+    "comics creator": {
+        "parents": [
+            "artist"
+        ],
+        "children": []
+    },
+    "community": {
+        "parents": [
+            "populated place"
+        ],
+        "children": []
+    },
+    "company": {
+        "parents": [
+            "organisation"
+        ],
+        "children": [
+            "airline",
+            "bank",
+            "brewery",
+            "bus company",
+            "caterer",
+            "law firm",
+            "publisher",
+            "record label",
+            "winery"
+        ]
+    },
+    "competition": {
+        "parents": [
+            "event"
+        ],
+        "children": [
+            "contest"
+        ]
+    },
+    "concentration camp": {
+        "parents": [
+            "place"
+        ],
+        "children": []
+    },
+    "congressman": {
+        "parents": [
+            "politician"
+        ],
+        "children": []
+    },
+    "conifer": {
+        "parents": [
+            "plant"
+        ],
+        "children": []
+    },
+    "constellation": {
+        "parents": [
+            "celestial body"
+        ],
+        "children": []
+    },
+    "contest": {
+        "parents": [
+            "competition"
+        ],
+        "children": []
+    },
+    "continent": {
+        "parents": [
+            "populated place"
+        ],
+        "children": []
+    },
+    "controlled designation of origin wine": {
+        "parents": [
+            "wine"
+        ],
+        "children": []
+    },
+    "convention": {
+        "parents": [
+            "societal event"
+        ],
+        "children": []
+    },
+    "conveyor system": {
+        "parents": [
+            "on site mean of transportation"
+        ],
+        "children": []
+    },
+    "country": {
+        "parents": [
+            "populated place"
+        ],
+        "children": [
+            "historical country"
+        ]
+    },
+    "country estate": {
+        "parents": [
+            "place"
+        ],
+        "children": []
+    },
+    "crater": {
+        "parents": [
+            "natural place"
+        ],
+        "children": [
+            "lunar crater"
+        ]
+    },
+    "creek": {
+        "parents": [
+            "stream"
+        ],
+        "children": []
+    },
+    "cricket ground": {
+        "parents": [
+            "sport facility"
+        ],
+        "children": []
+    },
+    "cricket league": {
+        "parents": [
+            "sports league"
+        ],
+        "children": []
+    },
+    "cricket team": {
+        "parents": [
+            "sports team"
+        ],
+        "children": []
+    },
+    "cricketer": {
+        "parents": [
+            "athlete"
+        ],
+        "children": []
+    },
+    "criminal": {
+        "parents": [
+            "person"
+        ],
+        "children": [
+            "murderer"
+        ]
+    },
+    "cross country skier": {
+        "parents": [
+            "winter sport player"
+        ],
+        "children": []
+    },
+    "crustacean": {
+        "parents": [
+            "animal"
+        ],
+        "children": []
+    },
+    "cultivar cultivated variety": {
+        "parents": [
+            "plant"
+        ],
+        "children": []
+    },
+    "curler": {
+        "parents": [
+            "winter sport player"
+        ],
+        "children": []
+    },
+    "curling league": {
+        "parents": [
+            "sports league"
+        ],
+        "children": []
+    },
+    "cycad": {
+        "parents": [
+            "plant"
+        ],
+        "children": []
+    },
+    "cycling competition": {
+        "parents": [
+            "sports event"
+        ],
+        "children": []
+    },
+    "cycling league": {
+        "parents": [
+            "sports league"
+        ],
+        "children": []
+    },
+    "cycling race": {
+        "parents": [
+            "race"
+        ],
+        "children": []
+    },
+    "cycling team": {
+        "parents": [
+            "sports team"
+        ],
+        "children": []
+    },
+    "cyclist": {
+        "parents": [
+            "athlete"
+        ],
+        "children": []
+    },
+    "dtm racer": {
+        "parents": [
+            "racing driver"
+        ],
+        "children": []
+    },
+    "dam": {
+        "parents": [
+            "infrastructure"
+        ],
+        "children": []
+    },
+    "dancer": {
+        "parents": [
+            "artist"
+        ],
+        "children": []
+    },
+    "darts player": {
+        "parents": [
+            "athlete"
+        ],
+        "children": []
+    },
+    "database": {
+        "parents": [
+            "work"
+        ],
+        "children": [
+            "biological database"
+        ]
+    },
+    "deanery": {
+        "parents": [
+            "clerical administrative region"
+        ],
+        "children": []
+    },
+    "death": {
+        "parents": [
+            "personal event"
+        ],
+        "children": []
+    },
+    "decoration": {
+        "parents": [
+            "award"
+        ],
+        "children": []
+    },
+    "deity": {
+        "parents": [
+            "agent"
+        ],
+        "children": []
+    },
+    "department": {
+        "parents": [
+            "governmental administrative region"
+        ],
+        "children": [
+            "overseas department"
+        ]
+    },
+    "deputy": {
+        "parents": [
+            "politician"
+        ],
+        "children": []
+    },
+    "desert": {
+        "parents": [
+            "natural place"
+        ],
+        "children": []
+    },
+    "device": {
+        "parents": [],
+        "children": [
+            "camera",
+            "engine",
+            "information appliance",
+            "instrument",
+            "mobile phone",
+            "weapon"
+        ]
+    },
+    "digital camera": {
+        "parents": [
+            "camera"
+        ],
+        "children": []
+    },
+    "dike": {
+        "parents": [
+            "infrastructure"
+        ],
+        "children": []
+    },
+    "diocese": {
+        "parents": [
+            "clerical administrative region"
+        ],
+        "children": []
+    },
+    "disney character": {
+        "parents": [
+            "fictional character"
+        ],
+        "children": []
+    },
+    "district": {
+        "parents": [
+            "governmental administrative region"
+        ],
+        "children": [
+            "historical district"
+        ]
+    },
+    "district water board": {
+        "parents": [
+            "governmental administrative region"
+        ],
+        "children": []
+    },
+    "divorce": {
+        "parents": [
+            "personal event"
+        ],
+        "children": []
+    },
+    "document": {
+        "parents": [
+            "work"
+        ],
+        "children": [
+            "file",
+            "image",
+            "sound"
+        ]
+    },
+    "document type": {
+        "parents": [
+            "type"
+        ],
+        "children": []
+    },
+    "dog": {
+        "parents": [
+            "mammal"
+        ],
+        "children": []
+    },
+    "drama": {
+        "parents": [
+            "written work"
+        ],
+        "children": []
+    },
+    "drug": {
+        "parents": [
+            "chemical substance"
+        ],
+        "children": []
+    },
+    "earthquake": {
+        "parents": [
+            "natural event"
+        ],
+        "children": []
+    },
+    "economist": {
+        "parents": [
+            "person"
+        ],
+        "children": []
+    },
+    "educational institution": {
+        "parents": [
+            "organisation"
+        ],
+        "children": [
+            "college",
+            "library",
+            "school",
+            "university"
+        ]
+    },
+    "egyptologist": {
+        "parents": [
+            "person"
+        ],
+        "children": []
+    },
+    "election": {
+        "parents": [
+            "societal event"
+        ],
+        "children": []
+    },
+    "electrical substation": {
+        "parents": [
+            "station"
+        ],
+        "children": []
+    },
+    "embryology": {
+        "parents": [
+            "anatomical structure"
+        ],
+        "children": []
+    },
+    "employer": {
+        "parents": [
+            "agent"
+        ],
+        "children": []
+    },
+    "employers' organisation": {
+        "parents": [
+            "organisation"
+        ],
+        "children": []
+    },
+    "engine": {
+        "parents": [
+            "device"
+        ],
+        "children": [
+            "automobile engine",
+            "rocket engine"
+        ]
+    },
+    "engineer": {
+        "parents": [
+            "person"
+        ],
+        "children": []
+    },
+    "entomologist": {
+        "parents": [
+            "scientist"
+        ],
+        "children": []
+    },
+    "enzyme": {
+        "parents": [
+            "biomolecule"
+        ],
+        "children": []
+    },
+    "escalator": {
+        "parents": [
+            "on site mean of transportation"
+        ],
+        "children": []
+    },
+    "eukaryote": {
+        "parents": [
+            "species"
+        ],
+        "children": [
+            "animal",
+            "fungus",
+            "plant"
+        ]
+    },
+    "eurovision song contest entry": {
+        "parents": [
+            "song"
+        ],
+        "children": []
+    },
+    "event": {
+        "parents": [],
+        "children": [
+            "competition",
+            "life cycle event",
+            "natural event",
+            "societal event"
+        ]
+    },
+    "factory": {
+        "parents": [
+            "building"
+        ],
+        "children": []
+    },
+    "family": {
+        "parents": [
+            "agent"
+        ],
+        "children": [
+            "noble family"
+        ]
+    },
+    "farmer": {
+        "parents": [
+            "person"
+        ],
+        "children": []
+    },
+    "fashion": {
+        "parents": [
+            "topical concept"
+        ],
+        "children": []
+    },
+    "fashion designer": {
+        "parents": [
+            "artist"
+        ],
+        "children": []
+    },
+    "fencer": {
+        "parents": [
+            "athlete"
+        ],
+        "children": []
+    },
+    "fern": {
+        "parents": [
+            "plant"
+        ],
+        "children": []
+    },
+    "fictional character": {
+        "parents": [
+            "person"
+        ],
+        "children": [
+            "comics character",
+            "disney character",
+            "mythological figure",
+            "naruto character",
+            "soap character"
+        ]
+    },
+    "fiefdom": {
+        "parents": [
+            "ancient area of jurisdiction of a person feudal or of a governmental body"
+        ],
+        "children": []
+    },
+    "field hockey league": {
+        "parents": [
+            "sports league"
+        ],
+        "children": []
+    },
+    "figure skater": {
+        "parents": [
+            "winter sport player"
+        ],
+        "children": []
+    },
+    "file": {
+        "parents": [
+            "document"
+        ],
+        "children": []
+    },
+    "filling station": {
+        "parents": [
+            "station"
+        ],
+        "children": []
+    },
+    "movie": {
+        "parents": [
+            "work"
+        ],
+        "children": []
+    },
+    "film festival": {
+        "parents": [
+            "societal event"
+        ],
+        "children": []
+    },
+    "fish": {
+        "parents": [
+            "animal"
+        ],
+        "children": []
+    },
+    "flowering plant": {
+        "parents": [
+            "plant"
+        ],
+        "children": [
+            "grape"
+        ]
+    },
+    "food": {
+        "parents": [],
+        "children": [
+            "beverage",
+            "cheese"
+        ]
+    },
+    "football league season": {
+        "parents": [
+            "sports team season"
+        ],
+        "children": [
+            "national football league season"
+        ]
+    },
+    "football match": {
+        "parents": [
+            "sports event"
+        ],
+        "children": []
+    },
+    "forest": {
+        "parents": [
+            "natural place"
+        ],
+        "children": []
+    },
+    "one time municipality": {
+        "parents": [
+            "municipality"
+        ],
+        "children": []
+    },
+    "formula one racer": {
+        "parents": [
+            "racing driver"
+        ],
+        "children": []
+    },
+    "formula one racing": {
+        "parents": [
+            "sports league"
+        ],
+        "children": []
+    },
+    "formula 1 team": {
+        "parents": [
+            "sports team"
+        ],
+        "children": []
+    },
+    "fort": {
+        "parents": [
+            "military structure"
+        ],
+        "children": []
+    },
+    "fungus": {
+        "parents": [
+            "eukaryote"
+        ],
+        "children": []
+    },
+    "gaelic games player": {
+        "parents": [
+            "athlete"
+        ],
+        "children": []
+    },
+    "galaxy": {
+        "parents": [
+            "celestial body"
+        ],
+        "children": []
+    },
+    "game": {
+        "parents": [
+            "activity"
+        ],
+        "children": [
+            "board game",
+            "card game"
+        ]
+    },
+    "garden": {
+        "parents": [
+            "place"
+        ],
+        "children": []
+    },
+    "gate": {
+        "parents": [
+            "architectural structure"
+        ],
+        "children": []
+    },
+    "gated community": {
+        "parents": [
+            "populated place"
+        ],
+        "children": []
+    },
+    "gene": {
+        "parents": [
+            "biomolecule"
+        ],
+        "children": [
+            "human gene",
+            "mouse gene"
+        ]
+    },
+    "gene location": {
+        "parents": [],
+        "children": [
+            "human gene location",
+            "mouse gene location"
+        ]
+    },
+    "genre": {
+        "parents": [
+            "topical concept"
+        ],
+        "children": [
+            "artistic genre",
+            "literary genre",
+            "movie genre",
+            "music genre"
+        ]
+    },
+    "geological period": {
+        "parents": [
+            "time period"
+        ],
+        "children": []
+    },
+    "geopolitical organisation": {
+        "parents": [
+            "organisation"
+        ],
+        "children": []
+    },
+    "ginkgo": {
+        "parents": [
+            "plant"
+        ],
+        "children": []
+    },
+    "given name": {
+        "parents": [
+            "name"
+        ],
+        "children": []
+    },
+    "glacier": {
+        "parents": [
+            "natural place"
+        ],
+        "children": []
+    },
+    "globular swarm": {
+        "parents": [
+            "swarm"
+        ],
+        "children": []
+    },
+    "gnetophytes": {
+        "parents": [
+            "plant"
+        ],
+        "children": []
+    },
+    "golf course": {
+        "parents": [
+            "sport facility"
+        ],
+        "children": []
+    },
+    "golf league": {
+        "parents": [
+            "sports league"
+        ],
+        "children": []
+    },
+    "golf player": {
+        "parents": [
+            "athlete"
+        ],
+        "children": []
+    },
+    "golf tournament": {
+        "parents": [
+            "tournament"
+        ],
+        "children": []
+    },
+    "government agency": {
+        "parents": [
+            "organisation"
+        ],
+        "children": [
+            "cabinet of ministers"
+        ]
+    },
+    "cabinet of ministers": {
+        "parents": [
+            "government agency"
+        ],
+        "children": []
+    },
+    "government type": {
+        "parents": [
+            "type"
+        ],
+        "children": []
+    },
+    "governmental administrative region": {
+        "parents": [
+            "administrative region"
+        ],
+        "children": [
+            "arrondissement",
+            "canton",
+            "department",
+            "district",
+            "district water board",
+            "micro region",
+            "municipality",
+            "prefecture",
+            "province",
+            "regency",
+            "borough"
+        ]
+    },
+    "governor": {
+        "parents": [
+            "politician"
+        ],
+        "children": []
+    },
+    "grand prix": {
+        "parents": [
+            "sports event"
+        ],
+        "children": []
+    },
+    "grape": {
+        "parents": [
+            "flowering plant"
+        ],
+        "children": []
+    },
+    "grave stone or grave monument": {
+        "parents": [
+            "monument"
+        ],
+        "children": []
+    },
+    "green alga": {
+        "parents": [
+            "plant"
+        ],
+        "children": []
+    },
+    "gridiron football player": {
+        "parents": [
+            "athlete"
+        ],
+        "children": [
+            "american football player",
+            "canadian football player"
+        ]
+    },
+    "group": {
+        "parents": [
+            "organisation"
+        ],
+        "children": [
+            "band",
+            "comedy group"
+        ]
+    },
+    "guitar": {
+        "parents": [
+            "instrument"
+        ],
+        "children": []
+    },
+    "guitarist": {
+        "parents": [
+            "instrumentalist"
+        ],
+        "children": []
+    },
+    "gymnast": {
+        "parents": [
+            "athlete"
+        ],
+        "children": []
+    },
+    "handball league": {
+        "parents": [
+            "sports league"
+        ],
+        "children": []
+    },
+    "handball player": {
+        "parents": [
+            "athlete"
+        ],
+        "children": []
+    },
+    "handball team": {
+        "parents": [
+            "sports team"
+        ],
+        "children": []
+    },
+    "high diver": {
+        "parents": [
+            "athlete"
+        ],
+        "children": []
+    },
+    "historian": {
+        "parents": [
+            "writer"
+        ],
+        "children": []
+    },
+    "historic building": {
+        "parents": [
+            "building"
+        ],
+        "children": []
+    },
+    "historic place": {
+        "parents": [
+            "place"
+        ],
+        "children": []
+    },
+    "ancient area of jurisdiction of a person feudal or of a governmental body": {
+        "parents": [
+            "administrative region"
+        ],
+        "children": [
+            "fiefdom"
+        ]
+    },
+    "historical country": {
+        "parents": [
+            "country"
+        ],
+        "children": []
+    },
+    "historical district": {
+        "parents": [
+            "district"
+        ],
+        "children": []
+    },
+    "historical period": {
+        "parents": [
+            "time period"
+        ],
+        "children": []
+    },
+    "historical province": {
+        "parents": [
+            "province"
+        ],
+        "children": []
+    },
+    "historical region": {
+        "parents": [
+            "region"
+        ],
+        "children": []
+    },
+    "historical settlement": {
+        "parents": [
+            "settlement"
+        ],
+        "children": []
+    },
+    "hockey club": {
+        "parents": [
+            "sports club"
+        ],
+        "children": []
+    },
+    "hockey team": {
+        "parents": [
+            "sports team"
+        ],
+        "children": []
+    },
+    "hollywood cartoon": {
+        "parents": [
+            "cartoon"
+        ],
+        "children": []
+    },
+    "hormone": {
+        "parents": [
+            "biomolecule"
+        ],
+        "children": []
+    },
+    "horse": {
+        "parents": [
+            "mammal"
+        ],
+        "children": [
+            "race horse"
+        ]
+    },
+    "horse race": {
+        "parents": [
+            "race"
+        ],
+        "children": []
+    },
+    "horse rider": {
+        "parents": [
+            "athlete"
+        ],
+        "children": []
+    },
+    "horse riding": {
+        "parents": [
+            "sport"
+        ],
+        "children": []
+    },
+    "horse trainer": {
+        "parents": [
+            "person"
+        ],
+        "children": []
+    },
+    "hospital": {
+        "parents": [
+            "building"
+        ],
+        "children": []
+    },
+    "host": {
+        "parents": [
+            "television personality"
+        ],
+        "children": []
+    },
+    "hot spring": {
+        "parents": [
+            "natural place"
+        ],
+        "children": []
+    },
+    "hotel": {
+        "parents": [
+            "building"
+        ],
+        "children": []
+    },
+    "human gene": {
+        "parents": [
+            "gene"
+        ],
+        "children": []
+    },
+    "human gene location": {
+        "parents": [
+            "gene location"
+        ],
+        "children": []
+    },
+    "humorist": {
+        "parents": [
+            "artist"
+        ],
+        "children": []
+    },
+    "ice hockey league": {
+        "parents": [
+            "sports league"
+        ],
+        "children": []
+    },
+    "ice hockey player": {
+        "parents": [
+            "winter sport player"
+        ],
+        "children": []
+    },
+    "ideology": {
+        "parents": [
+            "topical concept"
+        ],
+        "children": []
+    },
+    "image": {
+        "parents": [
+            "document"
+        ],
+        "children": [
+            "moving image",
+            "still image"
+        ]
+    },
+    "information appliance": {
+        "parents": [
+            "device"
+        ],
+        "children": []
+    },
+    "infrastructure": {
+        "parents": [
+            "architectural structure"
+        ],
+        "children": [
+            "airport",
+            "dam",
+            "dike",
+            "launch pad",
+            "lock",
+            "port",
+            "power station",
+            "rest area",
+            "route of transportation",
+            "station"
+        ]
+    },
+    "inline hockey league": {
+        "parents": [
+            "sports league"
+        ],
+        "children": []
+    },
+    "insect": {
+        "parents": [
+            "animal"
+        ],
+        "children": []
+    },
+    "instrument": {
+        "parents": [
+            "device"
+        ],
+        "children": [
+            "guitar",
+            "organ"
+        ]
+    },
+    "instrumentalist": {
+        "parents": [
+            "musical artist"
+        ],
+        "children": [
+            "guitarist"
+        ]
+    },
+    "intercommunality": {
+        "parents": [
+            "populated place"
+        ],
+        "children": []
+    },
+    "international football league event": {
+        "parents": [
+            "sports event"
+        ],
+        "children": []
+    },
+    "international organisation": {
+        "parents": [
+            "organisation"
+        ],
+        "children": []
+    },
+    "island": {
+        "parents": [
+            "populated place"
+        ],
+        "children": [
+            "atoll"
+        ]
+    },
+    "jockey horse racer": {
+        "parents": [
+            "athlete"
+        ],
+        "children": []
+    },
+    "journalist": {
+        "parents": [
+            "person"
+        ],
+        "children": []
+    },
+    "judge": {
+        "parents": [
+            "person"
+        ],
+        "children": []
+    },
+    "lacrosse league": {
+        "parents": [
+            "sports league"
+        ],
+        "children": []
+    },
+    "lacrosse player": {
+        "parents": [
+            "athlete"
+        ],
+        "children": []
+    },
+    "lake": {
+        "parents": [
+            "body of water"
+        ],
+        "children": []
+    },
+    "language": {
+        "parents": [],
+        "children": [
+            "programming language"
+        ]
+    },
+    "launch pad": {
+        "parents": [
+            "infrastructure"
+        ],
+        "children": []
+    },
+    "law": {
+        "parents": [
+            "written work"
+        ],
+        "children": []
+    },
+    "law firm": {
+        "parents": [
+            "company"
+        ],
+        "children": []
+    },
+    "lawyer": {
+        "parents": [
+            "person"
+        ],
+        "children": []
+    },
+    "legal case": {
+        "parents": [
+            "case"
+        ],
+        "children": [
+            "supreme court of the united states case"
+        ]
+    },
+    "legislature": {
+        "parents": [
+            "organisation"
+        ],
+        "children": []
+    },
+    "letter": {
+        "parents": [
+            "written work"
+        ],
+        "children": []
+    },
+    "library": {
+        "parents": [
+            "building",
+            "educational institution"
+        ],
+        "children": []
+    },
+    "lieutenant": {
+        "parents": [
+            "politician"
+        ],
+        "children": []
+    },
+    "life cycle event": {
+        "parents": [
+            "event"
+        ],
+        "children": [
+            "personal event"
+        ]
+    },
+    "ligament": {
+        "parents": [
+            "anatomical structure"
+        ],
+        "children": []
+    },
+    "light novel": {
+        "parents": [
+            "novel"
+        ],
+        "children": []
+    },
+    "lighthouse": {
+        "parents": [
+            "tower"
+        ],
+        "children": []
+    },
+    "line of fashion": {
+        "parents": [
+            "work"
+        ],
+        "children": []
+    },
+    "linguist": {
+        "parents": [
+            "person"
+        ],
+        "children": []
+    },
+    "lipid": {
+        "parents": [
+            "biomolecule"
+        ],
+        "children": []
+    },
+    "list": {
+        "parents": [],
+        "children": [
+            "track list"
+        ]
+    },
+    "literary genre": {
+        "parents": [
+            "genre"
+        ],
+        "children": []
+    },
+    "locality": {
+        "parents": [
+            "populated place"
+        ],
+        "children": []
+    },
+    "lock": {
+        "parents": [
+            "infrastructure"
+        ],
+        "children": []
+    },
+    "locomotive": {
+        "parents": [
+            "mean of transportation"
+        ],
+        "children": []
+    },
+    "lunar crater": {
+        "parents": [
+            "crater"
+        ],
+        "children": []
+    },
+    "lymph": {
+        "parents": [
+            "anatomical structure"
+        ],
+        "children": []
+    },
+    "magazine": {
+        "parents": [
+            "periodical literature"
+        ],
+        "children": []
+    },
+    "mammal": {
+        "parents": [
+            "animal"
+        ],
+        "children": [
+            "cat",
+            "dog",
+            "horse"
+        ]
+    },
+    "manga": {
+        "parents": [
+            "comic"
+        ],
+        "children": []
+    },
+    "manhua": {
+        "parents": [
+            "comic"
+        ],
+        "children": []
+    },
+    "manhwa": {
+        "parents": [
+            "comic"
+        ],
+        "children": []
+    },
+    "marriage": {
+        "parents": [
+            "personal event"
+        ],
+        "children": []
+    },
+    "martial artist": {
+        "parents": [
+            "athlete"
+        ],
+        "children": []
+    },
+    "mathematical concept": {
+        "parents": [
+            "topical concept"
+        ],
+        "children": []
+    },
+    "mayor": {
+        "parents": [
+            "politician"
+        ],
+        "children": []
+    },
+    "mean of transportation": {
+        "parents": [],
+        "children": [
+            "aircraft",
+            "automobile",
+            "locomotive",
+            "military vehicle",
+            "motorcycle",
+            "on site mean of transportation",
+            "rocket",
+            "ship",
+            "space shuttle",
+            "space station",
+            "spacecraft",
+            "train",
+            "train carriage",
+            "streetcar"
+        ]
+    },
+    "medician": {
+        "parents": [
+            "scientist"
+        ],
+        "children": []
+    },
+    "meeting": {
+        "parents": [
+            "societal event"
+        ],
+        "children": []
+    },
+    "member of parliament": {
+        "parents": [
+            "politician"
+        ],
+        "children": []
+    },
+    "member of a resistance movement": {
+        "parents": [
+            "person"
+        ],
+        "children": []
+    },
+    "memorial": {
+        "parents": [
+            "monument"
+        ],
+        "children": []
+    },
+    "subway station": {
+        "parents": [
+            "station"
+        ],
+        "children": []
+    },
+    "micro region": {
+        "parents": [
+            "governmental administrative region"
+        ],
+        "children": []
+    },
+    "military aircraft": {
+        "parents": [
+            "aircraft"
+        ],
+        "children": []
+    },
+    "military conflict": {
+        "parents": [
+            "societal event"
+        ],
+        "children": []
+    },
+    "military person": {
+        "parents": [
+            "person"
+        ],
+        "children": []
+    },
+    "military structure": {
+        "parents": [
+            "architectural structure"
+        ],
+        "children": [
+            "fort"
+        ]
+    },
+    "military unit": {
+        "parents": [
+            "organisation"
+        ],
+        "children": []
+    },
+    "military vehicle": {
+        "parents": [
+            "mean of transportation"
+        ],
+        "children": []
+    },
+    "mill": {
+        "parents": [
+            "architectural structure"
+        ],
+        "children": [
+            "treadmill",
+            "watermill",
+            "wind motor",
+            "windmill"
+        ]
+    },
+    "mine": {
+        "parents": [
+            "place"
+        ],
+        "children": [
+            "coal pit"
+        ]
+    },
+    "mineral": {
+        "parents": [
+            "chemical substance"
+        ],
+        "children": []
+    },
+    "mixed martial arts event": {
+        "parents": [
+            "sports event"
+        ],
+        "children": []
+    },
+    "mixed martial arts league": {
+        "parents": [
+            "sports league"
+        ],
+        "children": []
+    },
+    "mobile phone": {
+        "parents": [
+            "device"
+        ],
+        "children": []
+    },
+    "model": {
+        "parents": [
+            "person"
+        ],
+        "children": []
+    },
+    "mollusca": {
+        "parents": [
+            "animal"
+        ],
+        "children": []
+    },
+    "monarch": {
+        "parents": [
+            "person"
+        ],
+        "children": []
+    },
+    "monastery": {
+        "parents": [
+            "religious building"
+        ],
+        "children": []
+    },
+    "monument": {
+        "parents": [
+            "place"
+        ],
+        "children": [
+            "grave stone or grave monument",
+            "memorial"
+        ]
+    },
+    "mosque": {
+        "parents": [
+            "religious building"
+        ],
+        "children": []
+    },
+    "moss": {
+        "parents": [
+            "plant"
+        ],
+        "children": []
+    },
+    "motocycle racer": {
+        "parents": [
+            "motorcycle rider"
+        ],
+        "children": []
+    },
+    "motor race": {
+        "parents": [
+            "race"
+        ],
+        "children": []
+    },
+    "motorcycle": {
+        "parents": [
+            "mean of transportation"
+        ],
+        "children": []
+    },
+    "motorcycle racing league": {
+        "parents": [
+            "sports league"
+        ],
+        "children": []
+    },
+    "motorcycle rider": {
+        "parents": [
+            "motorsport racer"
+        ],
+        "children": [
+            "motocycle racer",
+            "speedway rider"
+        ]
+    },
+    "motorsport racer": {
+        "parents": [
+            "athlete"
+        ],
+        "children": [
+            "motorcycle rider",
+            "racing driver"
+        ]
+    },
+    "motorsport season": {
+        "parents": [
+            "sports season"
+        ],
+        "children": []
+    },
+    "mountain": {
+        "parents": [
+            "natural place"
+        ],
+        "children": []
+    },
+    "mountain pass": {
+        "parents": [
+            "natural place"
+        ],
+        "children": []
+    },
+    "mountain range": {
+        "parents": [
+            "natural place"
+        ],
+        "children": []
+    },
+    "mouse gene": {
+        "parents": [
+            "gene"
+        ],
+        "children": []
+    },
+    "mouse gene location": {
+        "parents": [
+            "gene location"
+        ],
+        "children": []
+    },
+    "movie director": {
+        "parents": [
+            "person"
+        ],
+        "children": []
+    },
+    "movie genre": {
+        "parents": [
+            "genre"
+        ],
+        "children": []
+    },
+    "moving image": {
+        "parents": [
+            "image"
+        ],
+        "children": []
+    },
+    "travellator": {
+        "parents": [
+            "on site mean of transportation"
+        ],
+        "children": []
+    },
+    "multi volume publication": {
+        "parents": [
+            "written work"
+        ],
+        "children": []
+    },
+    "municipality": {
+        "parents": [
+            "governmental administrative region"
+        ],
+        "children": [
+            "one time municipality"
+        ]
+    },
+    "murderer": {
+        "parents": [
+            "criminal"
+        ],
+        "children": [
+            "serial killer"
+        ]
+    },
+    "muscle": {
+        "parents": [
+            "anatomical structure"
+        ],
+        "children": []
+    },
+    "museum": {
+        "parents": [
+            "building"
+        ],
+        "children": []
+    },
+    "music composer": {
+        "parents": [
+            "writer"
+        ],
+        "children": []
+    },
+    "music director": {
+        "parents": [
+            "musical artist"
+        ],
+        "children": []
+    },
+    "music festival": {
+        "parents": [
+            "societal event"
+        ],
+        "children": []
+    },
+    "music genre": {
+        "parents": [
+            "genre"
+        ],
+        "children": []
+    },
+    "musical": {
+        "parents": [
+            "musical work"
+        ],
+        "children": []
+    },
+    "musical artist": {
+        "parents": [
+            "artist"
+        ],
+        "children": [
+            "back scene",
+            "classical music artist",
+            "instrumentalist",
+            "music director",
+            "singer"
+        ]
+    },
+    "musical work": {
+        "parents": [
+            "work"
+        ],
+        "children": [
+            "album",
+            "artist discography",
+            "classical music composition",
+            "musical",
+            "national anthem",
+            "opera",
+            "single",
+            "song"
+        ]
+    },
+    "mythological figure": {
+        "parents": [
+            "fictional character"
+        ],
+        "children": []
+    },
+    "national collegiate athletic association team season": {
+        "parents": [
+            "sports team season"
+        ],
+        "children": []
+    },
+    "name": {
+        "parents": [],
+        "children": [
+            "given name",
+            "surname"
+        ]
+    },
+    "naruto character": {
+        "parents": [
+            "fictional character"
+        ],
+        "children": []
+    },
+    "nascar driver": {
+        "parents": [
+            "racing driver"
+        ],
+        "children": []
+    },
+    "national anthem": {
+        "parents": [
+            "musical work"
+        ],
+        "children": []
+    },
+    "national collegiate athletic association athlete": {
+        "parents": [
+            "athlete"
+        ],
+        "children": []
+    },
+    "national football league event": {
+        "parents": [
+            "sports event"
+        ],
+        "children": []
+    },
+    "national football league season": {
+        "parents": [
+            "football league season"
+        ],
+        "children": []
+    },
+    "national soccer club": {
+        "parents": [
+            "soccer club"
+        ],
+        "children": []
+    },
+    "natural event": {
+        "parents": [
+            "event"
+        ],
+        "children": [
+            "earthquake",
+            "solar eclipse",
+            "storm surge"
+        ]
+    },
+    "natural place": {
+        "parents": [
+            "place"
+        ],
+        "children": [
+            "archipelago",
+            "beach",
+            "body of water",
+            "cape",
+            "cave",
+            "crater",
+            "desert",
+            "forest",
+            "glacier",
+            "hot spring",
+            "mountain",
+            "mountain pass",
+            "mountain range",
+            "valley",
+            "volcano"
+        ]
+    },
+    "natural region": {
+        "parents": [
+            "region"
+        ],
+        "children": []
+    },
+    "nerve": {
+        "parents": [
+            "anatomical structure"
+        ],
+        "children": []
+    },
+    "netball player": {
+        "parents": [
+            "athlete"
+        ],
+        "children": []
+    },
+    "newspaper": {
+        "parents": [
+            "periodical literature"
+        ],
+        "children": []
+    },
+    "nobel prize": {
+        "parents": [
+            "award"
+        ],
+        "children": []
+    },
+    "noble": {
+        "parents": [
+            "person"
+        ],
+        "children": []
+    },
+    "noble family": {
+        "parents": [
+            "family"
+        ],
+        "children": []
+    },
+    "non profit organisation": {
+        "parents": [
+            "organisation"
+        ],
+        "children": [
+            "record office"
+        ]
+    },
+    "nordic combined": {
+        "parents": [
+            "winter sport player"
+        ],
+        "children": []
+    },
+    "novel": {
+        "parents": [
+            "book"
+        ],
+        "children": [
+            "light novel"
+        ]
+    },
+    "nuclear power plant": {
+        "parents": [
+            "power station"
+        ],
+        "children": []
+    },
+    "ocean": {
+        "parents": [
+            "body of water"
+        ],
+        "children": []
+    },
+    "office holder": {
+        "parents": [
+            "person"
+        ],
+        "children": []
+    },
+    "old territory": {
+        "parents": [
+            "territory"
+        ],
+        "children": []
+    },
+    "olympic event": {
+        "parents": [
+            "olympics"
+        ],
+        "children": []
+    },
+    "olympic result": {
+        "parents": [
+            "results of a sport competition"
+        ],
+        "children": []
+    },
+    "olympics": {
+        "parents": [
+            "sports event"
+        ],
+        "children": [
+            "olympic event"
+        ]
+    },
+    "on site mean of transportation": {
+        "parents": [
+            "mean of transportation"
+        ],
+        "children": [
+            "conveyor system",
+            "escalator",
+            "travellator"
+        ]
+    },
+    "open swarm": {
+        "parents": [
+            "swarm"
+        ],
+        "children": []
+    },
+    "opera": {
+        "parents": [
+            "musical work"
+        ],
+        "children": []
+    },
+    "organ": {
+        "parents": [
+            "instrument"
+        ],
+        "children": []
+    },
+    "organisation": {
+        "parents": [
+            "agent"
+        ],
+        "children": [
+            "broadcaster",
+            "company",
+            "educational institution",
+            "employers' organisation",
+            "geopolitical organisation",
+            "government agency",
+            "group",
+            "international organisation",
+            "legislature",
+            "military unit",
+            "non profit organisation",
+            "parliament",
+            "political party",
+            "public transit system",
+            "religious organisation",
+            "samba school",
+            "sports club",
+            "sports league",
+            "sports team",
+            "term of office",
+            "trade union"
+        ]
+    },
+    "organisation member": {
+        "parents": [
+            "person"
+        ],
+        "children": [
+            "sports team member"
+        ]
+    },
+    "orphan": {
+        "parents": [
+            "person"
+        ],
+        "children": []
+    },
+    "overseas department": {
+        "parents": [
+            "department"
+        ],
+        "children": []
+    },
+    "paintball league": {
+        "parents": [
+            "sports league"
+        ],
+        "children": []
+    },
+    "painter": {
+        "parents": [
+            "artist"
+        ],
+        "children": []
+    },
+    "painting": {
+        "parents": [
+            "artwork"
+        ],
+        "children": []
+    },
+    "parish": {
+        "parents": [
+            "clerical administrative region"
+        ],
+        "children": []
+    },
+    "park": {
+        "parents": [
+            "place"
+        ],
+        "children": []
+    },
+    "parliament": {
+        "parents": [
+            "organisation"
+        ],
+        "children": []
+    },
+    "period of artistic style": {
+        "parents": [
+            "time period"
+        ],
+        "children": []
+    },
+    "periodical literature": {
+        "parents": [
+            "written work"
+        ],
+        "children": [
+            "academic journal",
+            "magazine",
+            "newspaper",
+            "underground journal"
+        ]
+    },
+    "person": {
+        "parents": [
+            "agent"
+        ],
+        "children": [
+            "ambassador",
+            "archeologist",
+            "architect",
+            "aristocrat",
+            "artist",
+            "astronaut",
+            "athlete",
+            "beauty queen",
+            "businessperson",
+            "celebrity",
+            "chef",
+            "cleric",
+            "coach",
+            "criminal",
+            "economist",
+            "egyptologist",
+            "engineer",
+            "farmer",
+            "fictional character",
+            "horse trainer",
+            "journalist",
+            "judge",
+            "lawyer",
+            "linguist",
+            "member of a resistance movement",
+            "military person",
+            "model",
+            "monarch",
+            "movie director",
+            "noble",
+            "office holder",
+            "organisation member",
+            "orphan",
+            "philosopher",
+            "playboy playmate",
+            "politician",
+            "politician spouse",
+            "presenter",
+            "producer",
+            "psychologist",
+            "referee",
+            "religious",
+            "roman emperor",
+            "royalty",
+            "scientist",
+            "sports manager",
+            "television director",
+            "television personality",
+            "theatre director",
+            "writer"
+        ]
+    },
+    "person function": {
+        "parents": [],
+        "children": [
+            "political function",
+            "profession"
+        ]
+    },
+    "personal event": {
+        "parents": [
+            "life cycle event"
+        ],
+        "children": [
+            "birth",
+            "death",
+            "divorce",
+            "marriage"
+        ]
+    },
+    "philosopher": {
+        "parents": [
+            "person"
+        ],
+        "children": []
+    },
+    "philosophical concept": {
+        "parents": [
+            "topical concept"
+        ],
+        "children": []
+    },
+    "photographer": {
+        "parents": [
+            "artist"
+        ],
+        "children": []
+    },
+    "place": {
+        "parents": [],
+        "children": [
+            "architectural structure",
+            "celestial body",
+            "cemetery",
+            "concentration camp",
+            "country estate",
+            "garden",
+            "historic place",
+            "mine",
+            "monument",
+            "natural place",
+            "park",
+            "populated place",
+            "protected area",
+            "site of special scientific interest",
+            "wine region",
+            "world heritage site"
+        ]
+    },
+    "planet": {
+        "parents": [
+            "celestial body"
+        ],
+        "children": []
+    },
+    "plant": {
+        "parents": [
+            "eukaryote"
+        ],
+        "children": [
+            "club moss",
+            "conifer",
+            "cultivar cultivated variety",
+            "cycad",
+            "fern",
+            "flowering plant",
+            "ginkgo",
+            "gnetophytes",
+            "green alga",
+            "moss"
+        ]
+    },
+    "play": {
+        "parents": [
+            "written work"
+        ],
+        "children": []
+    },
+    "playwright": {
+        "parents": [
+            "writer"
+        ],
+        "children": []
+    },
+    "playboy playmate": {
+        "parents": [
+            "person"
+        ],
+        "children": []
+    },
+    "poem": {
+        "parents": [
+            "written work"
+        ],
+        "children": []
+    },
+    "poet": {
+        "parents": [
+            "writer"
+        ],
+        "children": []
+    },
+    "poker player": {
+        "parents": [
+            "athlete"
+        ],
+        "children": []
+    },
+    "political concept": {
+        "parents": [
+            "topical concept"
+        ],
+        "children": []
+    },
+    "political function": {
+        "parents": [
+            "person function"
+        ],
+        "children": []
+    },
+    "political party": {
+        "parents": [
+            "organisation"
+        ],
+        "children": []
+    },
+    "politician": {
+        "parents": [
+            "person"
+        ],
+        "children": [
+            "chancellor",
+            "congressman",
+            "deputy",
+            "governor",
+            "lieutenant",
+            "mayor",
+            "member of parliament",
+            "president",
+            "prime minister",
+            "senator",
+            "vice president",
+            "vice prime minister"
+        ]
+    },
+    "politician spouse": {
+        "parents": [
+            "person"
+        ],
+        "children": []
+    },
+    "polo league": {
+        "parents": [
+            "sports league"
+        ],
+        "children": []
+    },
+    "polysaccharide": {
+        "parents": [
+            "biomolecule"
+        ],
+        "children": []
+    },
+    "pope": {
+        "parents": [
+            "cleric"
+        ],
+        "children": []
+    },
+    "populated place": {
+        "parents": [
+            "place"
+        ],
+        "children": [
+            "agglomeration",
+            "community",
+            "continent",
+            "country",
+            "gated community",
+            "intercommunality",
+            "island",
+            "locality",
+            "region",
+            "settlement",
+            "state",
+            "street",
+            "territory"
+        ]
+    },
+    "port": {
+        "parents": [
+            "infrastructure"
+        ],
+        "children": []
+    },
+    "power station": {
+        "parents": [
+            "infrastructure"
+        ],
+        "children": [
+            "nuclear power plant"
+        ]
+    },
+    "prefecture": {
+        "parents": [
+            "governmental administrative region"
+        ],
+        "children": []
+    },
+    "prehistorical period": {
+        "parents": [
+            "time period"
+        ],
+        "children": []
+    },
+    "presenter": {
+        "parents": [
+            "person"
+        ],
+        "children": [
+            "radio host",
+            "television host"
+        ]
+    },
+    "president": {
+        "parents": [
+            "politician"
+        ],
+        "children": []
+    },
+    "priest": {
+        "parents": [
+            "cleric"
+        ],
+        "children": []
+    },
+    "prime minister": {
+        "parents": [
+            "politician"
+        ],
+        "children": []
+    },
+    "prison": {
+        "parents": [
+            "building"
+        ],
+        "children": []
+    },
+    "producer": {
+        "parents": [
+            "person"
+        ],
+        "children": []
+    },
+    "profession": {
+        "parents": [
+            "person function"
+        ],
+        "children": []
+    },
+    "professor": {
+        "parents": [
+            "scientist"
+        ],
+        "children": []
+    },
+    "programming language": {
+        "parents": [
+            "language"
+        ],
+        "children": []
+    },
+    "project": {
+        "parents": [
+            "unit of work"
+        ],
+        "children": [
+            "research project"
+        ]
+    },
+    "protected area": {
+        "parents": [
+            "place"
+        ],
+        "children": []
+    },
+    "protein": {
+        "parents": [
+            "biomolecule"
+        ],
+        "children": []
+    },
+    "protohistorical period": {
+        "parents": [
+            "time period"
+        ],
+        "children": []
+    },
+    "province": {
+        "parents": [
+            "governmental administrative region"
+        ],
+        "children": [
+            "historical province"
+        ]
+    },
+    "psychologist": {
+        "parents": [
+            "person"
+        ],
+        "children": []
+    },
+    "public transit system": {
+        "parents": [
+            "organisation"
+        ],
+        "children": []
+    },
+    "publisher": {
+        "parents": [
+            "company"
+        ],
+        "children": []
+    },
+    "pyramid": {
+        "parents": [
+            "architectural structure"
+        ],
+        "children": []
+    },
+    "quote": {
+        "parents": [
+            "written work"
+        ],
+        "children": []
+    },
+    "race": {
+        "parents": [
+            "sports event"
+        ],
+        "children": [
+            "cycling race",
+            "horse race",
+            "motor race"
+        ]
+    },
+    "race horse": {
+        "parents": [
+            "horse"
+        ],
+        "children": []
+    },
+    "race track": {
+        "parents": [
+            "sport facility"
+        ],
+        "children": [
+            "racecourse"
+        ]
+    },
+    "racecourse": {
+        "parents": [
+            "race track"
+        ],
+        "children": []
+    },
+    "racing driver": {
+        "parents": [
+            "motorsport racer"
+        ],
+        "children": [
+            "dtm racer",
+            "formula one racer",
+            "nascar driver",
+            "rally driver"
+        ]
+    },
+    "radio controlled racing league": {
+        "parents": [
+            "sports league"
+        ],
+        "children": []
+    },
+    "radio host": {
+        "parents": [
+            "presenter"
+        ],
+        "children": []
+    },
+    "radio program": {
+        "parents": [
+            "work"
+        ],
+        "children": []
+    },
+    "radio station": {
+        "parents": [
+            "broadcaster"
+        ],
+        "children": []
+    },
+    "railway line": {
+        "parents": [
+            "route of transportation"
+        ],
+        "children": []
+    },
+    "train station": {
+        "parents": [
+            "station"
+        ],
+        "children": []
+    },
+    "railway tunnel": {
+        "parents": [
+            "route of transportation"
+        ],
+        "children": []
+    },
+    "rally driver": {
+        "parents": [
+            "racing driver"
+        ],
+        "children": []
+    },
+    "ratio": {
+        "parents": [
+            "relationship"
+        ],
+        "children": []
+    },
+    "rebellion": {
+        "parents": [
+            "societal event"
+        ],
+        "children": []
+    },
+    "record label": {
+        "parents": [
+            "company"
+        ],
+        "children": []
+    },
+    "record office": {
+        "parents": [
+            "non profit organisation"
+        ],
+        "children": []
+    },
+    "referee": {
+        "parents": [
+            "person"
+        ],
+        "children": []
+    },
+    "reference": {
+        "parents": [
+            "annotation"
+        ],
+        "children": []
+    },
+    "regency": {
+        "parents": [
+            "governmental administrative region"
+        ],
+        "children": []
+    },
+    "region": {
+        "parents": [
+            "populated place"
+        ],
+        "children": [
+            "administrative region",
+            "historical region",
+            "natural region"
+        ]
+    },
+    "relationship": {
+        "parents": [],
+        "children": [
+            "ratio"
+        ]
+    },
+    "religious": {
+        "parents": [
+            "person"
+        ],
+        "children": []
+    },
+    "religious building": {
+        "parents": [
+            "building"
+        ],
+        "children": [
+            "abbey",
+            "church",
+            "monastery",
+            "mosque",
+            "shrine",
+            "synagogue",
+            "temple"
+        ]
+    },
+    "religious organisation": {
+        "parents": [
+            "organisation"
+        ],
+        "children": [
+            "clerical order"
+        ]
+    },
+    "reptile": {
+        "parents": [
+            "animal"
+        ],
+        "children": []
+    },
+    "research project": {
+        "parents": [
+            "project"
+        ],
+        "children": []
+    },
+    "rest area": {
+        "parents": [
+            "infrastructure"
+        ],
+        "children": []
+    },
+    "restaurant": {
+        "parents": [
+            "building"
+        ],
+        "children": []
+    },
+    "resume": {
+        "parents": [
+            "written work"
+        ],
+        "children": []
+    },
+    "river": {
+        "parents": [
+            "stream"
+        ],
+        "children": []
+    },
+    "road": {
+        "parents": [
+            "route of transportation"
+        ],
+        "children": []
+    },
+    "road junction": {
+        "parents": [
+            "route of transportation"
+        ],
+        "children": []
+    },
+    "road tunnel": {
+        "parents": [
+            "route of transportation"
+        ],
+        "children": []
+    },
+    "rocket": {
+        "parents": [
+            "mean of transportation"
+        ],
+        "children": []
+    },
+    "rocket engine": {
+        "parents": [
+            "engine"
+        ],
+        "children": []
+    },
+    "roller coaster": {
+        "parents": [
+            "amusement park attraction"
+        ],
+        "children": []
+    },
+    "roman emperor": {
+        "parents": [
+            "person"
+        ],
+        "children": []
+    },
+    "route of transportation": {
+        "parents": [
+            "infrastructure"
+        ],
+        "children": [
+            "bridge",
+            "railway line",
+            "railway tunnel",
+            "road",
+            "road junction",
+            "road tunnel",
+            "waterway tunnel"
+        ]
+    },
+    "rower": {
+        "parents": [
+            "athlete"
+        ],
+        "children": []
+    },
+    "royalty": {
+        "parents": [
+            "person"
+        ],
+        "children": [
+            "british royalty"
+        ]
+    },
+    "rugby club": {
+        "parents": [
+            "sports team"
+        ],
+        "children": []
+    },
+    "rugby league": {
+        "parents": [
+            "sports league"
+        ],
+        "children": []
+    },
+    "rugby player": {
+        "parents": [
+            "athlete"
+        ],
+        "children": []
+    },
+    "saint": {
+        "parents": [
+            "cleric"
+        ],
+        "children": []
+    },
+    "sales": {
+        "parents": [
+            "activity"
+        ],
+        "children": []
+    },
+    "samba school": {
+        "parents": [
+            "organisation"
+        ],
+        "children": []
+    },
+    "satellite": {
+        "parents": [
+            "celestial body"
+        ],
+        "children": [
+            "artificial satellite"
+        ]
+    },
+    "school": {
+        "parents": [
+            "educational institution"
+        ],
+        "children": []
+    },
+    "scientific concept": {
+        "parents": [
+            "topical concept"
+        ],
+        "children": []
+    },
+    "scientist": {
+        "parents": [
+            "person"
+        ],
+        "children": [
+            "biologist",
+            "entomologist",
+            "medician",
+            "professor"
+        ]
+    },
+    "screenwriter": {
+        "parents": [
+            "writer"
+        ],
+        "children": []
+    },
+    "sculptor": {
+        "parents": [
+            "artist"
+        ],
+        "children": []
+    },
+    "sculpture": {
+        "parents": [
+            "artwork"
+        ],
+        "children": []
+    },
+    "sea": {
+        "parents": [
+            "body of water"
+        ],
+        "children": []
+    },
+    "senator": {
+        "parents": [
+            "politician"
+        ],
+        "children": []
+    },
+    "serial killer": {
+        "parents": [
+            "murderer"
+        ],
+        "children": []
+    },
+    "settlement": {
+        "parents": [
+            "populated place"
+        ],
+        "children": [
+            "city",
+            "city district",
+            "historical settlement",
+            "town",
+            "village"
+        ]
+    },
+    "ship": {
+        "parents": [
+            "mean of transportation"
+        ],
+        "children": []
+    },
+    "shopping mall": {
+        "parents": [
+            "building"
+        ],
+        "children": []
+    },
+    "shrine": {
+        "parents": [
+            "religious building"
+        ],
+        "children": []
+    },
+    "singer": {
+        "parents": [
+            "musical artist"
+        ],
+        "children": []
+    },
+    "single": {
+        "parents": [
+            "musical work"
+        ],
+        "children": []
+    },
+    "site of special scientific interest": {
+        "parents": [
+            "place"
+        ],
+        "children": []
+    },
+    "skater": {
+        "parents": [
+            "winter sport player"
+        ],
+        "children": []
+    },
+    "ski area": {
+        "parents": [
+            "sport facility"
+        ],
+        "children": [
+            "ski resort"
+        ]
+    },
+    "ski resort": {
+        "parents": [
+            "ski area"
+        ],
+        "children": []
+    },
+    "ski jumper": {
+        "parents": [
+            "winter sport player"
+        ],
+        "children": []
+    },
+    "skier": {
+        "parents": [
+            "winter sport player"
+        ],
+        "children": []
+    },
+    "skyscraper": {
+        "parents": [
+            "building"
+        ],
+        "children": []
+    },
+    "snooker world champion": {
+        "parents": [
+            "snooker player"
+        ],
+        "children": []
+    },
+    "snooker player": {
+        "parents": [
+            "athlete"
+        ],
+        "children": [
+            "snooker world champion"
+        ]
+    },
+    "snooker world ranking": {
+        "parents": [
+            "results of a sport competition"
+        ],
+        "children": []
+    },
+    "soap character": {
+        "parents": [
+            "fictional character"
+        ],
+        "children": []
+    },
+    "football": {
+        "parents": [
+            "team sport"
+        ],
+        "children": []
+    },
+    "soccer club": {
+        "parents": [
+            "sports team"
+        ],
+        "children": [
+            "national soccer club"
+        ]
+    },
+    "soccer club season": {
+        "parents": [
+            "sports team season"
+        ],
+        "children": []
+    },
+    "soccer league": {
+        "parents": [
+            "sports league"
+        ],
+        "children": []
+    },
+    "soccer league season": {
+        "parents": [
+            "sports team season"
+        ],
+        "children": []
+    },
+    "soccer manager": {
+        "parents": [
+            "sports manager"
+        ],
+        "children": []
+    },
+    "soccer player": {
+        "parents": [
+            "athlete"
+        ],
+        "children": []
+    },
+    "soccer tournoment": {
+        "parents": [
+            "tournament"
+        ],
+        "children": []
+    },
+    "societal event": {
+        "parents": [
+            "event"
+        ],
+        "children": [
+            "academic conference",
+            "attack",
+            "convention",
+            "election",
+            "film festival",
+            "meeting",
+            "military conflict",
+            "music festival",
+            "rebellion",
+            "space mission",
+            "sports event"
+        ]
+    },
+    "softball league": {
+        "parents": [
+            "sports league"
+        ],
+        "children": []
+    },
+    "software": {
+        "parents": [
+            "work"
+        ],
+        "children": [
+            "video game"
+        ]
+    },
+    "solar eclipse": {
+        "parents": [
+            "natural event"
+        ],
+        "children": []
+    },
+    "song": {
+        "parents": [
+            "musical work"
+        ],
+        "children": [
+            "eurovision song contest entry"
+        ]
+    },
+    "songwriter": {
+        "parents": [
+            "writer"
+        ],
+        "children": []
+    },
+    "sound": {
+        "parents": [
+            "document"
+        ],
+        "children": []
+    },
+    "space mission": {
+        "parents": [
+            "societal event"
+        ],
+        "children": []
+    },
+    "space shuttle": {
+        "parents": [
+            "mean of transportation"
+        ],
+        "children": []
+    },
+    "space station": {
+        "parents": [
+            "mean of transportation"
+        ],
+        "children": []
+    },
+    "spacecraft": {
+        "parents": [
+            "mean of transportation"
+        ],
+        "children": []
+    },
+    "species": {
+        "parents": [],
+        "children": [
+            "archaea",
+            "bacteria",
+            "eukaryote"
+        ]
+    },
+    "speed skater": {
+        "parents": [
+            "winter sport player"
+        ],
+        "children": []
+    },
+    "speedway league": {
+        "parents": [
+            "sports league"
+        ],
+        "children": []
+    },
+    "speedway rider": {
+        "parents": [
+            "motorcycle rider"
+        ],
+        "children": []
+    },
+    "speedway team": {
+        "parents": [
+            "sports team"
+        ],
+        "children": []
+    },
+    "sport": {
+        "parents": [
+            "activity"
+        ],
+        "children": [
+            "athletics",
+            "boxing",
+            "horse riding",
+            "team sport"
+        ]
+    },
+    "results of a sport competition": {
+        "parents": [],
+        "children": [
+            "olympic result",
+            "snooker world ranking"
+        ]
+    },
+    "sport facility": {
+        "parents": [
+            "architectural structure"
+        ],
+        "children": [
+            "cricket ground",
+            "golf course",
+            "race track",
+            "ski area",
+            "stadium"
+        ]
+    },
+    "sports club": {
+        "parents": [
+            "organisation"
+        ],
+        "children": [
+            "hockey club"
+        ]
+    },
+    "sports event": {
+        "parents": [
+            "societal event"
+        ],
+        "children": [
+            "cycling competition",
+            "football match",
+            "grand prix",
+            "international football league event",
+            "mixed martial arts event",
+            "national football league event",
+            "olympics",
+            "race",
+            "tournament",
+            "wrestling event"
+        ]
+    },
+    "sports league": {
+        "parents": [
+            "organisation"
+        ],
+        "children": [
+            "american football league",
+            "australian football league",
+            "auto racing league",
+            "baseball league",
+            "basketball league",
+            "bowling league",
+            "boxing league",
+            "liga de f\u00fatbol canadiense",
+            "cricket league",
+            "curling league",
+            "cycling league",
+            "field hockey league",
+            "formula one racing",
+            "golf league",
+            "handball league",
+            "ice hockey league",
+            "inline hockey league",
+            "lacrosse league",
+            "mixed martial arts league",
+            "motorcycle racing league",
+            "paintball league",
+            "polo league",
+            "radio controlled racing league",
+            "rugby league",
+            "soccer league",
+            "softball league",
+            "speedway league",
+            "tennis league",
+            "videogames league",
+            "volleyball league"
+        ]
+    },
+    "sports manager": {
+        "parents": [
+            "person"
+        ],
+        "children": [
+            "soccer manager"
+        ]
+    },
+    "sports season": {
+        "parents": [],
+        "children": [
+            "motorsport season",
+            "sports team season"
+        ]
+    },
+    "sports team": {
+        "parents": [
+            "organisation"
+        ],
+        "children": [
+            "american football team",
+            "australian football team",
+            "baseball team",
+            "basketball team",
+            "canadian football team",
+            "cricket team",
+            "cycling team",
+            "formula 1 team",
+            "handball team",
+            "hockey team",
+            "rugby club",
+            "soccer club",
+            "speedway team"
+        ]
+    },
+    "sports team member": {
+        "parents": [
+            "organisation member"
+        ],
+        "children": []
+    },
+    "sports team season": {
+        "parents": [
+            "sports season"
+        ],
+        "children": [
+            "baseball season",
+            "football league season",
+            "national collegiate athletic association team season",
+            "soccer club season",
+            "soccer league season"
+        ]
+    },
+    "square": {
+        "parents": [
+            "architectural structure"
+        ],
+        "children": []
+    },
+    "squash player": {
+        "parents": [
+            "athlete"
+        ],
+        "children": []
+    },
+    "stadium": {
+        "parents": [
+            "sport facility"
+        ],
+        "children": []
+    },
+    "standard": {
+        "parents": [
+            "topical concept"
+        ],
+        "children": []
+    },
+    "star": {
+        "parents": [
+            "celestial body"
+        ],
+        "children": [
+            "brown dwarf"
+        ]
+    },
+    "state": {
+        "parents": [
+            "populated place"
+        ],
+        "children": []
+    },
+    "stated resolution": {
+        "parents": [
+            "written work"
+        ],
+        "children": []
+    },
+    "station": {
+        "parents": [
+            "infrastructure"
+        ],
+        "children": [
+            "electrical substation",
+            "filling station",
+            "subway station",
+            "train station",
+            "tram station"
+        ]
+    },
+    "still image": {
+        "parents": [
+            "image"
+        ],
+        "children": []
+    },
+    "storm surge": {
+        "parents": [
+            "natural event"
+        ],
+        "children": []
+    },
+    "stream": {
+        "parents": [
+            "body of water"
+        ],
+        "children": [
+            "canal",
+            "creek",
+            "river"
+        ]
+    },
+    "street": {
+        "parents": [
+            "populated place"
+        ],
+        "children": []
+    },
+    "borough": {
+        "parents": [
+            "governmental administrative region"
+        ],
+        "children": []
+    },
+    "sumo wrestler": {
+        "parents": [
+            "wrestler"
+        ],
+        "children": []
+    },
+    "supreme court of the united states case": {
+        "parents": [
+            "legal case"
+        ],
+        "children": []
+    },
+    "surfer": {
+        "parents": [
+            "athlete"
+        ],
+        "children": []
+    },
+    "surname": {
+        "parents": [
+            "name"
+        ],
+        "children": []
+    },
+    "swarm": {
+        "parents": [
+            "celestial body"
+        ],
+        "children": [
+            "globular swarm",
+            "open swarm"
+        ]
+    },
+    "swimmer": {
+        "parents": [
+            "athlete"
+        ],
+        "children": []
+    },
+    "synagogue": {
+        "parents": [
+            "religious building"
+        ],
+        "children": []
+    },
+    "system of law": {
+        "parents": [
+            "topical concept"
+        ],
+        "children": []
+    },
+    "table tennis player": {
+        "parents": [
+            "athlete"
+        ],
+        "children": []
+    },
+    "tax": {
+        "parents": [
+            "topical concept"
+        ],
+        "children": []
+    },
+    "taxonomic group": {
+        "parents": [
+            "topical concept"
+        ],
+        "children": []
+    },
+    "team member": {
+        "parents": [
+            "athlete"
+        ],
+        "children": []
+    },
+    "team sport": {
+        "parents": [
+            "sport"
+        ],
+        "children": [
+            "football"
+        ]
+    },
+    "television director": {
+        "parents": [
+            "person"
+        ],
+        "children": []
+    },
+    "television episode": {
+        "parents": [
+            "work"
+        ],
+        "children": []
+    },
+    "television host": {
+        "parents": [
+            "presenter"
+        ],
+        "children": []
+    },
+    "television personality": {
+        "parents": [
+            "person"
+        ],
+        "children": [
+            "host"
+        ]
+    },
+    "television season": {
+        "parents": [
+            "work"
+        ],
+        "children": []
+    },
+    "television show": {
+        "parents": [
+            "work"
+        ],
+        "children": []
+    },
+    "television station": {
+        "parents": [
+            "broadcaster"
+        ],
+        "children": []
+    },
+    "temple": {
+        "parents": [
+            "religious building"
+        ],
+        "children": []
+    },
+    "tennis league": {
+        "parents": [
+            "sports league"
+        ],
+        "children": []
+    },
+    "tennis player": {
+        "parents": [
+            "athlete"
+        ],
+        "children": []
+    },
+    "tennis tournament": {
+        "parents": [
+            "tournament"
+        ],
+        "children": []
+    },
+    "term of office": {
+        "parents": [
+            "organisation"
+        ],
+        "children": []
+    },
+    "territory": {
+        "parents": [
+            "populated place"
+        ],
+        "children": [
+            "old territory"
+        ]
+    },
+    "theatre": {
+        "parents": [
+            "venue"
+        ],
+        "children": []
+    },
+    "theatre director": {
+        "parents": [
+            "person"
+        ],
+        "children": []
+    },
+    "theological concept": {
+        "parents": [
+            "topical concept"
+        ],
+        "children": [
+            "christian doctrine"
+        ]
+    },
+    "time period": {
+        "parents": [],
+        "children": [
+            "career station",
+            "geological period",
+            "historical period",
+            "period of artistic style",
+            "prehistorical period",
+            "protohistorical period",
+            "year",
+            "year in spaceflight"
+        ]
+    },
+    "topical concept": {
+        "parents": [],
+        "children": [
+            "academic subject",
+            "cardinal direction",
+            "fashion",
+            "genre",
+            "ideology",
+            "mathematical concept",
+            "philosophical concept",
+            "political concept",
+            "scientific concept",
+            "standard",
+            "system of law",
+            "tax",
+            "taxonomic group",
+            "theological concept",
+            "type"
+        ]
+    },
+    "tournament": {
+        "parents": [
+            "sports event"
+        ],
+        "children": [
+            "golf tournament",
+            "soccer tournoment",
+            "tennis tournament",
+            "women's tennis association tournament"
+        ]
+    },
+    "tower": {
+        "parents": [
+            "architectural structure"
+        ],
+        "children": [
+            "lighthouse",
+            "water tower"
+        ]
+    },
+    "town": {
+        "parents": [
+            "settlement"
+        ],
+        "children": []
+    },
+    "track list": {
+        "parents": [
+            "list"
+        ],
+        "children": []
+    },
+    "trade union": {
+        "parents": [
+            "organisation"
+        ],
+        "children": []
+    },
+    "train": {
+        "parents": [
+            "mean of transportation"
+        ],
+        "children": []
+    },
+    "train carriage": {
+        "parents": [
+            "mean of transportation"
+        ],
+        "children": []
+    },
+    "streetcar": {
+        "parents": [
+            "mean of transportation"
+        ],
+        "children": []
+    },
+    "tram station": {
+        "parents": [
+            "station"
+        ],
+        "children": []
+    },
+    "treadmill": {
+        "parents": [
+            "mill"
+        ],
+        "children": []
+    },
+    "treaty": {
+        "parents": [
+            "written work"
+        ],
+        "children": []
+    },
+    "tunnel": {
+        "parents": [
+            "architectural structure"
+        ],
+        "children": []
+    },
+    "type": {
+        "parents": [
+            "topical concept"
+        ],
+        "children": [
+            "document type",
+            "government type"
+        ]
+    },
+    "underground journal": {
+        "parents": [
+            "periodical literature"
+        ],
+        "children": []
+    },
+    "unit of work": {
+        "parents": [],
+        "children": [
+            "case",
+            "project"
+        ]
+    },
+    "university": {
+        "parents": [
+            "educational institution"
+        ],
+        "children": []
+    },
+    "valley": {
+        "parents": [
+            "natural place"
+        ],
+        "children": []
+    },
+    "vein": {
+        "parents": [
+            "anatomical structure"
+        ],
+        "children": []
+    },
+    "venue": {
+        "parents": [
+            "architectural structure"
+        ],
+        "children": [
+            "theatre"
+        ]
+    },
+    "vicar": {
+        "parents": [
+            "cleric"
+        ],
+        "children": []
+    },
+    "vice president": {
+        "parents": [
+            "politician"
+        ],
+        "children": []
+    },
+    "vice prime minister": {
+        "parents": [
+            "politician"
+        ],
+        "children": []
+    },
+    "video game": {
+        "parents": [
+            "software"
+        ],
+        "children": []
+    },
+    "videogames league": {
+        "parents": [
+            "sports league"
+        ],
+        "children": []
+    },
+    "village": {
+        "parents": [
+            "settlement"
+        ],
+        "children": []
+    },
+    "vodka": {
+        "parents": [
+            "beverage"
+        ],
+        "children": []
+    },
+    "voice actor": {
+        "parents": [
+            "actor"
+        ],
+        "children": []
+    },
+    "volcano": {
+        "parents": [
+            "natural place"
+        ],
+        "children": []
+    },
+    "volleyball coach": {
+        "parents": [
+            "coach"
+        ],
+        "children": []
+    },
+    "volleyball league": {
+        "parents": [
+            "sports league"
+        ],
+        "children": []
+    },
+    "volleyball player": {
+        "parents": [
+            "athlete"
+        ],
+        "children": [
+            "beach volleyball player"
+        ]
+    },
+    "water polo player": {
+        "parents": [
+            "athlete"
+        ],
+        "children": []
+    },
+    "water ride": {
+        "parents": [
+            "amusement park attraction"
+        ],
+        "children": []
+    },
+    "water tower": {
+        "parents": [
+            "tower"
+        ],
+        "children": []
+    },
+    "watermill": {
+        "parents": [
+            "mill"
+        ],
+        "children": []
+    },
+    "waterway tunnel": {
+        "parents": [
+            "route of transportation"
+        ],
+        "children": []
+    },
+    "weapon": {
+        "parents": [
+            "device"
+        ],
+        "children": []
+    },
+    "website": {
+        "parents": [
+            "work"
+        ],
+        "children": []
+    },
+    "wind motor": {
+        "parents": [
+            "mill"
+        ],
+        "children": []
+    },
+    "windmill": {
+        "parents": [
+            "mill"
+        ],
+        "children": []
+    },
+    "wine": {
+        "parents": [
+            "beverage"
+        ],
+        "children": [
+            "controlled designation of origin wine"
+        ]
+    },
+    "wine region": {
+        "parents": [
+            "place"
+        ],
+        "children": []
+    },
+    "winery": {
+        "parents": [
+            "company"
+        ],
+        "children": []
+    },
+    "winter sport player": {
+        "parents": [
+            "athlete"
+        ],
+        "children": [
+            "biathlete",
+            "bobsleigh athlete",
+            "cross country skier",
+            "curler",
+            "figure skater",
+            "ice hockey player",
+            "nordic combined",
+            "skater",
+            "ski jumper",
+            "skier",
+            "speed skater"
+        ]
+    },
+    "women's tennis association tournament": {
+        "parents": [
+            "tournament"
+        ],
+        "children": []
+    },
+    "work": {
+        "parents": [],
+        "children": [
+            "artwork",
+            "cartoon",
+            "collection of valuables",
+            "database",
+            "document",
+            "movie",
+            "line of fashion",
+            "musical work",
+            "radio program",
+            "software",
+            "television episode",
+            "television season",
+            "television show",
+            "website",
+            "written work"
+        ]
+    },
+    "world heritage site": {
+        "parents": [
+            "place"
+        ],
+        "children": []
+    },
+    "wrestler": {
+        "parents": [
+            "athlete"
+        ],
+        "children": [
+            "sumo wrestler"
+        ]
+    },
+    "wrestling event": {
+        "parents": [
+            "sports event"
+        ],
+        "children": []
+    },
+    "writer": {
+        "parents": [
+            "person"
+        ],
+        "children": [
+            "historian",
+            "music composer",
+            "playwright",
+            "poet",
+            "screenwriter",
+            "songwriter"
+        ]
+    },
+    "written work": {
+        "parents": [
+            "work"
+        ],
+        "children": [
+            "annotation",
+            "article",
+            "book",
+            "comic",
+            "drama",
+            "law",
+            "letter",
+            "multi volume publication",
+            "periodical literature",
+            "play",
+            "poem",
+            "quote",
+            "resume",
+            "stated resolution",
+            "treaty"
+        ]
+    },
+    "year": {
+        "parents": [
+            "time period"
+        ],
+        "children": []
+    },
+    "year in spaceflight": {
+        "parents": [
+            "time period"
+        ],
+        "children": []
+    },
+    "zoo": {
+        "parents": [
+            "architectural structure"
+        ],
+        "children": []
+    }
+}

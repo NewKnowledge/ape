@@ -1,0 +1,15 @@
+__pycache__/
+nk_ape/__pycache__/
+nk_ape/embeddings/
+http_wrapper/__pycache__/
+
+.vscode
+node_modules
+
+package-lock.json
+*.csv
+
+.gitignore
+Dockerfile
+Jenkinsfile
+run.sh

@@ -1,0 +1,19 @@
+version: '3'
+
+networks:
+  backend:
+
+services:
+
+  ape:
+    build: .
+    environment:
+      - ONTOLOGY_PATH=/app/nk_ape/ontologies/class-tree_dbpedia_2016-10_pruned.json
+      - EMBEDDING_PATH=/app/nk_ape/embeddings/lexvec.enwiki+newscrawl.300d.W.pos.vectors
+      # - EMBEDDING_PATH=/app/embeddings/GoogleNews-vectors-negative300.bin.gz
+      # - EMBEDDING_PATH=/app/embeddings/wiki2vec/en.model
+    networks:
+      - backend
+    volumes:
+      - ./nk_ape/embeddings:/app/nk_ape/embeddings
+      # - .:/app
