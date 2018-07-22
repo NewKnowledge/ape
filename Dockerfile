@@ -6,10 +6,10 @@ WORKDIR $HOME
 
 COPY requirements.txt $HOME/
 
-RUN pip install -r requirements.txt
+RUN pip install --upgrade pip \
+    && pip install -r requirements.txt
 
 COPY . $HOME/
-
 RUN pip install -e .
 
 CMD ["pytest", "--color=yes", "-s", "tests/test.py"]
