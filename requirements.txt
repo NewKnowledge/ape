@@ -1,6 +1,6 @@
 gensim==3.2.0
-inflection
-numpy
-ontospy
-pandas
-pytest
+inflection>=0.3.1
+numpy>=1.13.3
+ontospy>=1.8.6
+pandas>=0.19.2
+pytest>=3.6.2
