@@ -84,7 +84,7 @@ class Ape:
             top_scores = scores[sort_inds]
 
             return [{'class': ont_class, 'score': score} for ont_class, score in zip(top_classes, top_scores)]
-        logging.warning('empty input text list')
+        logging.info('empty input text list')
         return []
 
     def get_description(self, input_text):
