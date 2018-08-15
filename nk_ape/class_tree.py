@@ -1,12 +1,16 @@
 import json
 
 import numpy as np
+
 import ontospy
 from inflection import underscore
 
-from .embedding import Embedding
-from .utils import DASHES_TO_SPACES, REMOVE_PAREN, unit_norm_rows, no_op, path_to_name
 from .config import ONTOLOGY_PATH
+from .embedding import Embedding
+from .utils import DASHES_TO_SPACES, REMOVE_PAREN, no_op, path_to_name, unit_norm_rows
+import logging
+
+logger = logging.getLogger(__name__)
 
 
 class EmbeddedClassTree():
@@ -15,12 +19,11 @@ class EmbeddedClassTree():
                  tree_path=ONTOLOGY_PATH,
                  embed_classes=True,
                  verbose=False):
-        self.vprint = print if verbose else no_op
 
         assert isinstance(embedding_model, Embedding)
         self.embedding = embedding_model
 
-        self.vprint('loading ontology tree')
+        logger.debug('loading ontology tree')
         self.tree = self.load_tree(tree_path)
         self.classes = np.array(list(self.tree.keys()))
 
@@ -135,11 +138,11 @@ def get_tree_file_name(ontology_name, prune=True):
 
 
 def generate_class_tree_file(ontology_path='ontologies/dbpedia_2016-10.nt', prune=False):
-    print('loading ontology: ', ontology_path)
+    logger.info('loading ontology: ', ontology_path)
     ont = ontospy.Ontospy(ontology_path)
 
     all_classes = set()
-    print('building class relationships')
+    logger.info('building class relationships')
     relationships = {}
     for cl in ont.classes:
         relationships[to_class_name(cl)] = {
@@ -152,21 +155,21 @@ def generate_class_tree_file(ontology_path='ontologies/dbpedia_2016-10.nt', prun
         all_classes = all_classes.union(
             parents, children, set([to_class_name(cl)]))
 
-    print('pre prune relationships length:', len(relationships.keys()))
+    logger.info('pre prune relationships length:', len(relationships.keys()))
 
     if prune:
         # remove all isolated classes (dont have children or parents)
         relationships = {name: rels for (name, rels) in relationships.items() if has_relations(rels)}
 
-    print('number of ontology classes:', len(ont.classes))
+    logger.info('number of ontology classes:', len(ont.classes))
 
-    print('number of all classes (including children & parents):', len(all_classes))
+    logger.info('number of all classes (including children & parents):', len(all_classes))
 
-    print('number of relationships keys:', len(relationships.keys()))
+    logger.info('number of relationships keys:', len(relationships.keys()))
 
-    print('classes minus rel keys:', all_classes.difference(set(relationships.keys())))
+    logger.info('classes minus rel keys:', all_classes.difference(set(relationships.keys())))
 
-    print('writing class relationships to file')
+    logger.info('writing class relationships to file')
     ontology_name = path_to_name(ontology_path)
     file_name = f'ontologies/class-tree_{ontology_name}{"_pruned" if prune else ""}.json'
     with open(file_name, 'w') as rels_file:

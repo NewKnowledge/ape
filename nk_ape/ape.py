@@ -8,6 +8,9 @@ from .class_tree import EmbeddedClassTree, tree_score
 from .config import EMBEDDING_PATH, ONTOLOGY_PATH
 from .embedding import Embedding
 from .utils import mean_of_rows, no_op, normalize_text, unit_norm_rows
+import logging
+
+logger = logging.getLogger(__name__)
 
 
 class Ape:
@@ -17,18 +20,16 @@ class Ape:
                  ontology_path=ONTOLOGY_PATH,
                  row_agg_func=mean_of_rows,
                  tree_agg_func=np.mean,
-                 verbose=False):
+                 ):
 
-        self.vprint = print if verbose else no_op
-
-        self.vprint('initializing ape')
-        self.embedding = Embedding(embedding_path=embedding_path, verbose=verbose)
-        self.tree = EmbeddedClassTree(self.embedding, tree_path=ontology_path, verbose=verbose)
+        logger.info('initializing ape, this can take a while...')
+        self.embedding = Embedding(embedding_path=embedding_path)
+        self.tree = EmbeddedClassTree(self.embedding, tree_path=ontology_path)
 
         self.row_agg_func = row_agg_func
         self.tree_agg_func = tree_agg_func
 
-        self.vprint('ape initialized')
+        logger.info('ape initialized')
 
     @property
     def classes(self):
@@ -36,13 +37,13 @@ class Ape:
 
     def format_input(self, input_text):
         '''' format into list of lists of single words, removing words outside the word embedding vocab '''
-        self.vprint('normalizing input text and removing out-of-vocab words')
+        logger.debug('normalizing input text and removing out-of-vocab words')
         word_groups = np.array([normalize_text(text) for text in input_text])
         return self.embedding.remove_out_of_vocab(word_groups)
 
     def compute_similarity_matrix(self, input_vectors):
         ''' compute cosine similarity bt embedded data and ontology classes '''
-        self.vprint('computing similarity matrix between class and input vectors')
+        logger.debug('computing similarity matrix between class and input vectors')
         return np.dot(input_vectors, self.tree.class_vectors.T)
 
     def aggregate_tree_scores(self, scores):
@@ -66,26 +67,30 @@ class Ape:
 
         sim_matrix = self.compute_similarity_matrix(input_vectors)
 
-        self.vprint('aggregating row scores')
+        logger.debug('aggregating row scores')
         sim_scores = self.row_agg_func(sim_matrix)
 
-        self.vprint('aggregating tree scores')
+        logger.debug('aggregating tree scores')
         return self.aggregate_tree_scores(sim_scores)
 
     def get_top_classes(self, input_text, n_classes=10):
+        ''' takes a list of strings as input text and returns the top n classes '''
         # TODO control max length of input text?
         # TODO set score threshold instead of always top n classes?
-        scores = self.get_class_scores(input_text)
-        sort_inds = np.argsort(scores)[::-1][:n_classes]
-        top_classes = self.classes[sort_inds]
-        top_scores = scores[sort_inds]
+        if input_text:
+            scores = self.get_class_scores(input_text)
+            sort_inds = np.argsort(scores)[::-1][:n_classes]
+            top_classes = self.classes[sort_inds]
+            top_scores = scores[sort_inds]
 
-        return [{'class': ont_class, 'score': score} for ont_class, score in zip(top_classes, top_scores)]
+            return [{'class': ont_class, 'score': score} for ont_class, score in zip(top_classes, top_scores)]
+        logging.warning('empty input text list')
+        return []
 
     def get_description(self, input_text):
         scores = self.get_class_scores(input_text)
         top_word = self.classes[np.argmax(scores)]
-        self.vprint('\n\nselecting top word as description:', top_word, '\n\n')
+        logger.info(f'\n\nselecting top word as description: {top_word}\n\n')
         return f'The given text can be summarized as {pluralize(top_word)}'
 
     def predict(self, input_text, n_classes=10):
