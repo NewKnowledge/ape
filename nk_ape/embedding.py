@@ -1,8 +1,13 @@
+import logging
+
 import numpy as np
-from gensim.models import Word2Vec, KeyedVectors
+
+from gensim.models import KeyedVectors, Word2Vec
 
 from .config import EMBEDDING_PATH
 from .utils import mean_of_rows, no_op
+
+logger = logging.getLogger(__name__)
 
 
 class Embedding:
@@ -13,16 +18,15 @@ class Embedding:
                  embed_agg_func=mean_of_rows,
                  verbose=False):
 
-        self.vprint = print if verbose else no_op
         self.embed_agg_func = embed_agg_func
 
-        self.vprint('loading word2vec embedding model')
+        logger.debug('loading word2vec embedding model')
         try:
             binary = '.bin' in embedding_path
             model = KeyedVectors.load_word2vec_format(embedding_path, binary=binary)
         except UnicodeDecodeError as err:
-            self.vprint('error loading model:', err)
-            self.vprint('trying different load function')
+            logger.debug('error loading model:', err)
+            logger.debug('trying different load function')
             model = KeyedVectors.load(embedding_path)
         # we only use the embedding vectors (no training), so we can get rid of the rest of the model
         self.model = model.wv
@@ -37,7 +41,7 @@ class Embedding:
 
         # removes all word lists with any oov words
         in_vocab = [self.in_vocab(group) for group in word_groups]
-        self.vprint(
+        logger.debug(
             'dropping {0} out of {1} values for having out-of-vocab words'
             .format(len(word_groups) - sum(in_vocab), len(word_groups)))
         return word_groups[in_vocab]

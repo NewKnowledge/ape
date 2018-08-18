@@ -1,9 +1,13 @@
-import time
+import logging
 import os
+import time
 from datetime import datetime
 
 import numpy as np
+
 from inflection import underscore
+
+logger = logging.getLogger(__name__)
 
 DASHES_TO_SPACES = {'_': ' ', '-': ' '}
 REMOVE_PAREN = {'(': '', ')': ''}
@@ -56,9 +60,9 @@ def path_to_name(path):
 
 def timeit(func, args=None):
     start = time.time()
-    print('calling {0} \n'.format(func.__name__))
+    logger.info('calling {0} \n'.format(func.__name__))
     result = func(*args) if args else func()
-    print(
+    logger.info(
         '{0} took {1} seconds \n\n'
         .format(func.__name__, time.time() - start))
     return result

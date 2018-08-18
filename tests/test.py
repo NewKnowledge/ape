@@ -2,7 +2,9 @@
 from nk_ape import Ape
 import logging
 
-ape = Ape(verbose=True)
+logger = logging.getLogger(__name__)
+
+ape = Ape()
 
 
 def test_top_classes(n_classes=5):
@@ -17,3 +19,9 @@ def test_top_classes(n_classes=5):
     assert 'class' in res.keys() and isinstance(res['class'], str)
     assert 'score' in res.keys() and isinstance(res['score'], float)
     logging.debug('top classes test complete')
+
+
+def test_empty(n_classes=5):
+
+    result = ape.get_top_classes([], n_classes=n_classes)
+    logger.info(result)
