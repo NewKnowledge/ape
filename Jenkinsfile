@@ -53,5 +53,5 @@ node {
     //         string(name: "clusterId", value: "${activeMap.clusterId}"),
     //         string(name: "releaseName", value: "${activeMap.releaseName}")
     //     ]
-    // }
+    }
 }
