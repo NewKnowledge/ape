@@ -30,7 +30,6 @@ class Embedding:
         # we only use the embedding vectors (no training), so we can get rid of the rest of the model
         self.model = model.wv
         del model
-        logger.info("succeeded in loading embedding model")
 
     def remove_out_of_vocab(self, word_groups):
         if isinstance(word_groups, str):

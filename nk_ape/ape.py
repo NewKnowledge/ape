@@ -21,7 +21,9 @@ class Ape:
         tree_agg_func=np.mean,
     ):
 
-        logger.info("initializing ape, this can take a while...")
+        logger.info(
+            f"initializing ape, loading word embedding from {embedding_path}, this can take a while..."
+        )
         self.embedding = Embedding(embedding_path=embedding_path)
         self.tree = EmbeddedClassTree(self.embedding, tree_path=ontology_path)
 
