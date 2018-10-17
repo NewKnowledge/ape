@@ -1,11 +1,10 @@
 """ Tests for ape """
-import logging
 
 from nk_logger import get_logger
 
 from nk_ape import Ape
 
-logger = get_logger(f"ape.{__name__}", level=logging.INFO)
+logger = get_logger(__name__)
 
 ape = Ape()
 

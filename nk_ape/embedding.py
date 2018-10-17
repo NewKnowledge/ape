@@ -4,12 +4,12 @@ import numpy as np
 
 from gensim.models import KeyedVectors, Word2Vec
 
-from .config import EMBEDDING_PATH, LOG_LEVEL, SERVICE_NAME
+from .config import EMBEDDING_PATH
 from .utils import mean_of_rows, no_op
 
 from nk_logger import get_logger
 
-logger = get_logger(f"{SERVICE_NAME}.{__name__}", level=LOG_LEVEL)
+logger = get_logger(__name__)
 
 
 class Embedding:

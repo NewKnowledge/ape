@@ -6,9 +6,7 @@ import numpy as np
 from inflection import underscore
 from nk_logger import get_logger
 
-from .config import LOG_LEVEL, SERVICE_NAME
-
-logger = get_logger(f"{SERVICE_NAME}.{__name__}", level=LOG_LEVEL)
+logger = get_logger(__name__)
 
 
 DASHES_TO_SPACES = {"_": " ", "-": " "}

@@ -4,12 +4,12 @@ import numpy as np
 from inflection import pluralize
 
 from .class_tree import EmbeddedClassTree, tree_score
-from .config import EMBEDDING_PATH, ONTOLOGY_PATH, LOG_LEVEL, SERVICE_NAME
+from .config import EMBEDDING_PATH, ONTOLOGY_PATH
 from .embedding import Embedding
 from .utils import mean_of_rows, normalize_text, unit_norm_rows
 from nk_logger import get_logger
 
-logger = get_logger(f"{SERVICE_NAME}.{__name__}", level=LOG_LEVEL)
+logger = get_logger(__name__)
 
 
 class Ape:

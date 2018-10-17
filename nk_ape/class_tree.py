@@ -5,13 +5,13 @@ import numpy as np
 import ontospy
 from inflection import underscore
 
-from .config import ONTOLOGY_PATH, LOG_LEVEL, SERVICE_NAME
+from .config import ONTOLOGY_PATH
 from .embedding import Embedding
 from .utils import DASHES_TO_SPACES, REMOVE_PAREN, no_op, path_to_name, unit_norm_rows
 
 from nk_logger import get_logger
 
-logger = get_logger(f"{SERVICE_NAME}.{__name__}", level=LOG_LEVEL)
+logger = get_logger(__name__)
 
 
 class EmbeddedClassTree:
