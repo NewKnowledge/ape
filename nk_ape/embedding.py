@@ -24,12 +24,13 @@ class Embedding:
             binary = ".bin" in embedding_path
             model = KeyedVectors.load_word2vec_format(embedding_path, binary=binary)
         except UnicodeDecodeError as err:
-            logger.info("error loading model: {err}")
+            logger.warning(f"error loading model: {err}")
             logger.info("trying different load function")
             model = KeyedVectors.load(embedding_path)
         # we only use the embedding vectors (no training), so we can get rid of the rest of the model
         self.model = model.wv
         del model
+        logger.info("succeeded in loading embedding model")
 
     def remove_out_of_vocab(self, word_groups):
         if isinstance(word_groups, str):
