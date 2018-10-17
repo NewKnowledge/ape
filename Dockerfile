@@ -4,6 +4,9 @@ ENV HOME=/app
 
 WORKDIR $HOME
 
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    git
+
 COPY requirements.txt $HOME/
 
 RUN pip install --upgrade pip \
