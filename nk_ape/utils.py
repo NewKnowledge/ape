@@ -28,7 +28,9 @@ def normalize_text(
 
 
 def unit_norm_rows(vectors):
-    return vectors / np.linalg.norm(vectors, axis=1)[:, None]
+    if vectors.ndim == 1:
+        vectors = vectors[None, :]
+    return vectors / (1e-8 + np.linalg.norm(vectors, axis=1)[:, None])
 
 
 def mean_of_rows(vectors):
