@@ -4,3 +4,4 @@ numpy>=1.13.3
 ontospy>=1.8.6
 pandas>=0.19.2
 pytest>=3.6.2
+git+https://github.com/NewKnowledge/nk-logger.git@71756f9f7778aec007595623b4f3bf24d24c6ad6#egg=nk_logger

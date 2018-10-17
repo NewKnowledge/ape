@@ -4,29 +4,28 @@ import numpy as np
 
 from gensim.models import KeyedVectors, Word2Vec
 
-from .config import EMBEDDING_PATH
+from .config import EMBEDDING_PATH, LOG_LEVEL, SERVICE_NAME
 from .utils import mean_of_rows, no_op
 
-logger = logging.getLogger(__name__)
+from nk_logger import get_logger
+
+logger = get_logger(f"{SERVICE_NAME}.{__name__}", level=LOG_LEVEL)
 
 
 class Embedding:
-    ''' Load a word2vec embedding from a file '''
+    """ Load a word2vec embedding from a file """
 
-    def __init__(self,
-                 embedding_path=EMBEDDING_PATH,
-                 embed_agg_func=mean_of_rows,
-                 verbose=False):
+    def __init__(self, embedding_path=EMBEDDING_PATH, embed_agg_func=mean_of_rows):
 
         self.embed_agg_func = embed_agg_func
 
-        logger.debug('loading word2vec embedding model')
+        logger.info("loading word2vec embedding model")
         try:
-            binary = '.bin' in embedding_path
+            binary = ".bin" in embedding_path
             model = KeyedVectors.load_word2vec_format(embedding_path, binary=binary)
         except UnicodeDecodeError as err:
-            logger.debug('error loading model:', err)
-            logger.debug('trying different load function')
+            logger.info("error loading model: {err}")
+            logger.info("trying different load function")
             model = KeyedVectors.load(embedding_path)
         # we only use the embedding vectors (no training), so we can get rid of the rest of the model
         self.model = model.wv
@@ -34,16 +33,18 @@ class Embedding:
 
     def remove_out_of_vocab(self, word_groups):
         if isinstance(word_groups, str):
-            word_groups = word_groups.split(' ')
+            word_groups = word_groups.split(" ")
 
         if not isinstance(word_groups, np.ndarray):
             word_groups = np.array(word_groups)
 
         # removes all word lists with any oov words
         in_vocab = [self.in_vocab(group) for group in word_groups]
-        logger.debug(
-            'dropping {0} out of {1} values for having out-of-vocab words'
-            .format(len(word_groups) - sum(in_vocab), len(word_groups)))
+        logger.info(
+            "dropping {0} out of {1} values for having out-of-vocab words".format(
+                len(word_groups) - sum(in_vocab), len(word_groups)
+            )
+        )
         return word_groups[in_vocab]
 
     def embed_word(self, word):
@@ -57,5 +58,5 @@ class Embedding:
 
     def in_vocab(self, word_list):
         if isinstance(word_list, str):
-            word_list = word_list.split(' ')
+            word_list = word_list.split(" ")
         return all([word in self.model.vocab for word in word_list])
