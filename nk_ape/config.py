@@ -1,4 +1,3 @@
-import logging
 import os
 
 EMBEDDING_PATH = os.getenv("EMBEDDING_PATH", "nk_ape/embeddings/wiki2vec/en.model")
