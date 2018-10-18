@@ -3,4 +3,4 @@ inflection>=0.3.1
 numpy>=1.13.3
 ontospy>=1.8.6
 pytest>=3.6.2
-git+https://github.com/NewKnowledge/nk-logger.git@fcfb39274dcc9b8b593db1f2223e1b439c59d8a4#egg=nk_logger
+git+https://github.com/NewKnowledge/nk-logger.git@036267ab1c087d19904118eb84740f79c7ea9e18#egg=nk_logger
